@@ -1,1 +1,464 @@
-{"sections":{"images_with_text_overlay_8TfFVm":{"type":"images-with-text-overlay","blocks":{"subheading_mDnFU8":{"type":"subheading","settings":{"subheading":"Add a tagline","subheading_size":"subtitle-md","secondary_color":true}},"heading_BaRJgN":{"type":"heading","settings":{"heading":"Image with text overlay","heading_size":"title-md","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle","highlighted_reveal":false}},"text_pRc38q":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_font":"body","text_size":"subtext-md","text_max_size":32,"text_line_height":1.6,"text_letter_spacing":0,"text_capitalize":false,"secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["subheading_mDnFU8","heading_BaRJgN","text_pRc38q"],"name":"t:sections.images-with-text-overlay.name","settings":{"transparent_header":true,"image_height":"500px","content_width":"large","content_position":"md:items-center md:justify-start","text_alignment":"left","image_1":"shopify:\/\/shop_images\/B5F58118-D46B-4EDE-881F-530CE691E4E8.jpg","image_2":"shopify:\/\/shop_images\/9F9A078B-9839-4775-8575-35188BE6E6EE.jpg","image_3":"shopify:\/\/shop_images\/91DCA4C6-BF80-41CF-9F89-4C4973535FC0.jpg","image_height_mobile":"auto","content_position_mobile":"items-end justify-start","text_alignment_mobile":"left","color_text":"#ffffff","color_background":"","gradient_background":"","color_highlight":"#e0a580","gradient_highlight":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#171717","overlay_opacity":95,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":false,"enable_parallax":true}},"slideshow":{"type":"slideshow","blocks":{"slide-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/10E2AA6E-21FE-45E9-BD0A-67FB96625AA4.jpg","heading":"Your cosmic jewelry","heading_size":"title-lg tracking-heading","heading_tag":"h2","button_label":"Переглянути каталог","button_link":"shopify:\/\/collections\/all","button_style":"primary","button_external":false,"button_icon":false}},"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/8D1D9F66-940E-4828-9F12-6209B6E28ACC.jpg","image_mobile":"shopify:\/\/shop_images\/BF6C6999-7F5F-45B1-A7EE-A93505580C96.jpg","heading":"Отримай -10% на все замовлення при купівлі трьох прикрас","heading_size":"title-md","heading_tag":"h2","button_label":"Переглянути каталог","button_link":"shopify:\/\/collections\/all","button_style":"primary","button_external":false,"button_icon":false}},"image_cyGTC4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/6C9A031C-0408-4129-80C1-9EBF535BB058.jpg","heading":"Отримай -10% на другу прикрасу!","heading_size":"title-md","heading_tag":"h2","button_label":"Переглянути каталог","button_link":"shopify:\/\/collections\/all","button_style":"primary","button_external":false,"button_icon":false}}},"block_order":["slide-2","slide-1","image_cyGTC4"],"settings":{"autoplay":true,"autoplay_speed":3,"show_navigation":true,"image_height":"500px","content_width":"large","image_height_mobile":"500px","accessibility_info":"Slideshow about our brand","color_text":"#ffffff","color_background":"#ffffff","gradient_background":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#171717","overlay_opacity":20,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":false,"enable_parallax":true,"parallax_direction":"vertical"}},"rich-text-1":{"type":"rich-text","blocks":{"text":{"type":"text","settings":{"text":"<p><strong>Harmony Sound<\/strong> is more than just an audio equipment retailer. We represent the grandeur of sound in its finest manifestations. Our mission is to cater to audiophiles and those who simply appreciate quality sound. We offer audio devices that combine unparalleled sound with elegant design. Every product in our catalog promises a full immersion into the world of music for those unwilling to compromise on quality.<br\/><br\/>We offer everything from the warm sound of vinyl records to the clarity and crispness of modern wireless headphones, ensuring every note sounds impeccable.<\/p>","text_font":"body","text_size":"subtext-md","text_max_size":32,"text_line_height":1.6,"text_letter_spacing":0,"text_capitalize":false,"secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["text"],"disabled":true,"settings":{"text_alignment":"left","text_alignment_mobile":"left","heading":"We believe in the  power of <em>sound<\/em>","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_width":"small","heading_tag":"h2","subheading":"","description":"","button_label":"Our Story","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"scribble","highlighted_scribble":"basic-underline","highlighted_reveal":false,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":0,"divider":false,"narrow":false,"rounded":false}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"novelty","title":"Новинки","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#171717","overlay_opacity":0}},"collection-2":{"type":"collection","settings":{"collection":"comet","title":"Колекція \"Комета\"","description":"","overlay_content":false,"color_text":"#2c2b27","color_overlay":"#171717","overlay_opacity":30}}},"block_order":["collection-1","collection-2"],"settings":{"card_style":"standard","image_type":"collection","image_ratio":"square","show_products_count":false,"show_view_all":false,"columns":2,"carousel_on_desktop":true,"columns_mobile":"2","swipe_on_mobile":true,"heading":"Колекції","heading_size":"title-lg tracking-heading","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","highlighted_reveal":false,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":100,"padding_bottom":100,"divider":false,"full_width":false,"rounded":false}},"collection_list_w9BezB":{"type":"collection-list","blocks":{"collection_KEJWF8":{"type":"collection","settings":{"collection":"earrings","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_h8YLf8":{"type":"collection","settings":{"collection":"rings","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_3QR4xe":{"type":"collection","settings":{"collection":"bracelets","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_9PEDhD":{"type":"collection","settings":{"collection":"chains","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_WJeYBx":{"type":"collection","settings":{"collection":"anklets","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_aUYyfh":{"type":"collection","settings":{"collection":"cuffs","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}}},"block_order":["collection_KEJWF8","collection_h8YLf8","collection_3QR4xe","collection_9PEDhD","collection_WJeYBx","collection_aUYyfh"],"custom_css":[],"name":"t:sections.collection-list.name","settings":{"card_style":"standard","image_type":"collection","image_ratio":"square","show_products_count":false,"show_view_all":false,"columns":3,"carousel_on_desktop":false,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Категорії","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","highlighted_reveal":false,"color_text":"","color_background":"#dedede","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"featured_collection_qfqhkR":{"type":"featured-collection","name":"t:sections.featured-collection.name","settings":{"collection":"bestsellers","products":[],"product_limit":4,"columns":4,"carousel_on_desktop":true,"show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"heading":"Бестселери","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","highlighted_reveal":false,"color_text":"","color_background":"#dedede","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":100,"padding_bottom":100,"divider":false,"full_width":false,"rounded":false}},"featured_collection_XBDrEM":{"type":"featured-collection","name":"t:sections.featured-collection.name","settings":{"collection":"novelty","products":[],"product_limit":4,"columns":4,"carousel_on_desktop":true,"show_view_all":true,"columns_mobile":"2","swipe_on_mobile":false,"heading":"Новинки","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h6","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","highlighted_reveal":false,"color_text":"","color_background":"#fdfdfd","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":true,"rounded":false}},"image_with_text_NpKeEi":{"type":"image-with-text","blocks":{"text_UtyiGV":{"type":"text","settings":{"text":"<h5><strong>Solarsilver<\/strong>  — це унікальний бренд прикрас ручної роботи, створений для того, щоб підкреслювати унікальність кожної жінки, як мінімалістичними прикрасами, так і сяючими, яскравими та масивними аксесуарами з натуральних матеріалів. <\/h5><h5><br\/>Настав час носити стильні прикраси без будь-якого приводу - Solarsilver допоможе тобі в цьому. <\/h5>","text_font":"body","text_size":"subtext-md","text_max_size":32,"text_line_height":1.6,"text_letter_spacing":0,"text_capitalize":false,"secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"button_zdwJRJ":{"type":"button","disabled":true,"settings":{"button_label":"Детальніше","button_link":"shopify:\/\/pages\/about","button_style":"primary","button_size":"md","button_external":false,"button_icon":false}}},"block_order":["text_UtyiGV","button_zdwJRJ"],"custom_css":[],"name":"t:sections.image-with-text.name","settings":{"image":"shopify:\/\/shop_images\/Rectangle_119.png","image_height":"500px","image_width":"large","layout":"text_first","text_alignment":"left","content_position":"align-self-center","image_height_mobile":"auto","text_alignment_mobile":"left","color_text":"","color_background":"#f8ded3","gradient_background":"","color_background_2":"#f8ded3","gradient_background_2":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":32,"padding_bottom":36,"divider":false,"full_width":true,"rounded":false,"enable_parallax":false,"parallax_direction":"zoom"}},"contact_form_cCwKY8":{"type":"contact-form","name":"t:sections.contact-form.name","settings":{"heading":"Маєте питання - напишіть нам!","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle","highlighted_reveal":false,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":32,"padding_bottom":100,"divider":false,"narrow":true,"rounded":false}}},"order":["images_with_text_overlay_8TfFVm","slideshow","rich-text-1","collection-list","collection_list_w9BezB","featured_collection_qfqhkR","featured_collection_XBDrEM","image_with_text_NpKeEi","contact_form_cCwKY8"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "image_with_text_overlay_GYDmUW": {
+        "type": "image-with-text-overlay",
+        "blocks": {
+          "heading_6fTter": {
+            "type": "heading",
+            "settings": {
+              "heading": "Отримай -10% на все замовлення при купівлі трьох прикрас",
+              "heading_size": "title-sm",
+              "heading_tag": "h2",
+              "highlighted_text": "none",
+              "highlighted_scribble": "circle",
+              "highlighted_reveal": false
+            }
+          },
+          "button_GPjDQ3": {
+            "type": "button",
+            "settings": {
+              "button_label": "Переглянути каталог",
+              "button_link": "shopify://collections",
+              "button_style": "primary",
+              "button_size": "md",
+              "button_external": false,
+              "button_icon": true
+            }
+          }
+        },
+        "block_order": [
+          "heading_6fTter",
+          "button_GPjDQ3"
+        ],
+        "name": "t:sections.image-with-text-overlay.name",
+        "settings": {
+          "transparent_header": true,
+          "image": "shopify://shop_images/40_2.jpg",
+          "image_height": "650px",
+          "content_width": "small",
+          "content_position": "md:items-end md:justify-start",
+          "text_alignment": "left",
+          "image_height_mobile": "auto",
+          "content_position_mobile": "items-end justify-start",
+          "text_alignment_mobile": "left",
+          "color_text": "#ffffff",
+          "color_background": "",
+          "gradient_background": "",
+          "color_highlight": "#e0a580",
+          "gradient_highlight": "",
+          "color_button_text": "#171717",
+          "color_button_background": "#ffffff",
+          "color_button_gradient": "",
+          "color_overlay": "#171717",
+          "overlay_opacity": 11,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "divider": false,
+          "full_width": true,
+          "rounded": false,
+          "enable_parallax": true,
+          "parallax_direction": "vertical"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "novelty",
+              "title": "Новинки",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#171717",
+              "overlay_opacity": 0
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "comet",
+              "title": "Колекція \"Комета\"",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#2c2b27",
+              "color_overlay": "#171717",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_HWNqUm": {
+            "type": "collection",
+            "settings": {
+              "collection": "колекція-luna",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_tNjbeD": {
+            "type": "collection",
+            "settings": {
+              "collection": "grape",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          }
+        },
+        "block_order": [
+          "collection-1",
+          "collection-2",
+          "collection_HWNqUm",
+          "collection_tNjbeD"
+        ],
+        "settings": {
+          "card_style": "standard",
+          "image_type": "collection",
+          "image_ratio": "square",
+          "show_products_count": false,
+          "show_view_all": false,
+          "columns": 4,
+          "carousel_on_desktop": true,
+          "columns_mobile": "2",
+          "swipe_on_mobile": true,
+          "heading": "Колекції",
+          "heading_size": "title-md",
+          "heading_alignment": "text-left md:items-end md:flex-row",
+          "heading_tag": "h2",
+          "subheading": "",
+          "description": "",
+          "highlighted_text": "none",
+          "highlighted_scribble": "circle",
+          "highlighted_reveal": false,
+          "color_text": "",
+          "color_background": "",
+          "gradient_background": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "divider": false,
+          "full_width": false,
+          "rounded": false
+        }
+      },
+      "collection_list_w9BezB": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_KEJWF8": {
+            "type": "collection",
+            "settings": {
+              "collection": "earrings",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_h8YLf8": {
+            "type": "collection",
+            "settings": {
+              "collection": "rings",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_3QR4xe": {
+            "type": "collection",
+            "settings": {
+              "collection": "bracelets",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_9PEDhD": {
+            "type": "collection",
+            "settings": {
+              "collection": "chains",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_WJeYBx": {
+            "type": "collection",
+            "settings": {
+              "collection": "anklets",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          },
+          "collection_aUYyfh": {
+            "type": "collection",
+            "settings": {
+              "collection": "cuffs",
+              "title": "",
+              "description": "",
+              "overlay_content": false,
+              "color_text": "#ffffff",
+              "color_overlay": "#000000",
+              "overlay_opacity": 30
+            }
+          }
+        },
+        "block_order": [
+          "collection_KEJWF8",
+          "collection_h8YLf8",
+          "collection_3QR4xe",
+          "collection_9PEDhD",
+          "collection_WJeYBx",
+          "collection_aUYyfh"
+        ],
+        "custom_css": [],
+        "name": "t:sections.collection-list.name",
+        "settings": {
+          "card_style": "standard",
+          "image_type": "collection",
+          "image_ratio": "square",
+          "show_products_count": false,
+          "show_view_all": false,
+          "columns": 3,
+          "carousel_on_desktop": false,
+          "columns_mobile": "1",
+          "swipe_on_mobile": true,
+          "heading": "Категорії",
+          "heading_size": "title-md",
+          "heading_alignment": "text-left md:items-end md:flex-row",
+          "heading_tag": "h2",
+          "subheading": "",
+          "description": "",
+          "highlighted_text": "none",
+          "highlighted_scribble": "circle",
+          "highlighted_reveal": false,
+          "color_text": "",
+          "color_background": "#dedede",
+          "gradient_background": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 72,
+          "padding_bottom": 72,
+          "divider": false,
+          "full_width": false,
+          "rounded": false
+        }
+      },
+      "featured_collection_qfqhkR": {
+        "type": "featured-collection",
+        "name": "t:sections.featured-collection.name",
+        "settings": {
+          "collection": "bestsellers",
+          "products": [],
+          "product_limit": 4,
+          "columns": 4,
+          "carousel_on_desktop": true,
+          "show_view_all": false,
+          "columns_mobile": "2",
+          "swipe_on_mobile": false,
+          "heading": "Бестселери",
+          "heading_size": "title-md",
+          "heading_alignment": "text-left md:items-end md:flex-row",
+          "heading_tag": "h2",
+          "subheading": "",
+          "description": "",
+          "highlighted_text": "none",
+          "highlighted_scribble": "circle",
+          "highlighted_reveal": false,
+          "color_text": "",
+          "color_background": "#dedede",
+          "gradient_background": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "divider": false,
+          "full_width": false,
+          "rounded": false
+        }
+      },
+      "featured_collection_XBDrEM": {
+        "type": "featured-collection",
+        "name": "t:sections.featured-collection.name",
+        "settings": {
+          "collection": "novelty",
+          "products": [],
+          "product_limit": 4,
+          "columns": 4,
+          "carousel_on_desktop": true,
+          "show_view_all": true,
+          "columns_mobile": "2",
+          "swipe_on_mobile": false,
+          "heading": "Новинки",
+          "heading_size": "title-md",
+          "heading_alignment": "text-left md:items-end md:flex-row",
+          "heading_tag": "h6",
+          "subheading": "",
+          "description": "",
+          "highlighted_text": "none",
+          "highlighted_scribble": "circle",
+          "highlighted_reveal": false,
+          "color_text": "",
+          "color_background": "#fdfdfd",
+          "gradient_background": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 72,
+          "padding_bottom": 72,
+          "divider": false,
+          "full_width": true,
+          "rounded": false
+        }
+      },
+      "image_with_text_NpKeEi": {
+        "type": "image-with-text",
+        "blocks": {
+          "text_UtyiGV": {
+            "type": "text",
+            "settings": {
+              "text": "<h5><strong>Solarsilver</strong>  — це унікальний бренд прикрас ручної роботи, створений для того, щоб підкреслювати унікальність кожної жінки, як мінімалістичними прикрасами, так і сяючими, яскравими та масивними аксесуарами з натуральних матеріалів. </h5><h5><br/>Настав час носити стильні прикраси без будь-якого приводу - Solarsilver допоможе тобі в цьому. </h5>",
+              "text_font": "body",
+              "text_size": "subtext-md",
+              "text_max_size": 32,
+              "text_line_height": 1.6,
+              "text_letter_spacing": 0,
+              "text_capitalize": false,
+              "secondary_color": false,
+              "highlighted_text": "none",
+              "highlighted_scribble": "circle"
+            }
+          },
+          "button_zdwJRJ": {
+            "type": "button",
+            "disabled": true,
+            "settings": {
+              "button_label": "Детальніше",
+              "button_link": "shopify://pages/about",
+              "button_style": "primary",
+              "button_size": "md",
+              "button_external": false,
+              "button_icon": false
+            }
+          }
+        },
+        "block_order": [
+          "text_UtyiGV",
+          "button_zdwJRJ"
+        ],
+        "custom_css": [],
+        "name": "t:sections.image-with-text.name",
+        "settings": {
+          "image": "shopify://shop_images/Rectangle_119.png",
+          "image_height": "500px",
+          "image_width": "large",
+          "layout": "text_first",
+          "text_alignment": "left",
+          "content_position": "align-self-center",
+          "image_height_mobile": "auto",
+          "text_alignment_mobile": "left",
+          "color_text": "",
+          "color_background": "#f8ded3",
+          "gradient_background": "",
+          "color_background_2": "#f8ded3",
+          "gradient_background_2": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 32,
+          "padding_bottom": 36,
+          "divider": false,
+          "full_width": true,
+          "rounded": false,
+          "enable_parallax": false,
+          "parallax_direction": "zoom"
+        }
+      },
+      "contact_form_cCwKY8": {
+        "type": "contact-form",
+        "name": "t:sections.contact-form.name",
+        "settings": {
+          "heading": "Маєте питання - напишіть нам!",
+          "heading_size": "title-md",
+          "heading_alignment": "text-left md:items-end md:flex-row",
+          "heading_tag": "h2",
+          "subheading": "",
+          "description": "",
+          "button_label": "",
+          "button_link": "",
+          "button_external": false,
+          "button_icon": true,
+          "highlighted_text": "none",
+          "highlighted_scribble": "circle",
+          "highlighted_reveal": false,
+          "color_text": "",
+          "color_background": "",
+          "gradient_background": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 32,
+          "padding_bottom": 100,
+          "divider": false,
+          "narrow": true,
+          "rounded": false
+        }
+      }
+    },
+    "order": [
+      "image_with_text_overlay_GYDmUW",
+      "collection-list",
+      "collection_list_w9BezB",
+      "featured_collection_qfqhkR",
+      "featured_collection_XBDrEM",
+      "image_with_text_NpKeEi",
+      "contact_form_cCwKY8"
+    ]
+  }
+  
