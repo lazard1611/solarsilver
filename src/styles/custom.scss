@@ -1,0 +1,73 @@
+/* ==================================================== IMPORTS ==================================================== */
+//application
+@use './variables.scss' as *;
+@use './fonts.scss';
+//mixins
+@use './mixins/global-mixins.scss' as *;
+
+
+/* ===================================================== COMMON ==================================================== */
+
+body {
+    &.popup_open {
+        overflow: hidden;
+    }
+}
+
+//=====================================================================================================================
+.goal_section {
+    padding-inline: var(--gl-indent);
+}
+
+.goal_container {
+    max-width: var(--main-layout);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.goal_truncate {
+    margin-top: 16px;
+    text-align: right;
+}
+
+.goal_truncate__btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 0 10px;
+    background-color: $black;
+
+    font-size: 14px;
+    line-height: 1;
+    color: $white;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+    &:has(input:checked) {
+        .hide {
+            opacity: 1;
+            display: inline-flex;
+        }
+
+        .show {
+            opacity: 0;
+            display: none;
+        }
+    }    
+
+    @include hover {
+        transform: scale(1.02);
+    }
+}
+
+.goal_truncate__btn_text {
+    &.hide {
+        display: none;
+        opacity: 0;
+    }
+}
+
+//=====================================================================================================================

@@ -1,0 +1,88 @@
+@mixin break_points($width, $value: max) {
+    @if $value == min {
+        @media screen and (min-width: $width) {
+            @content;
+        }
+    } @else if $value == max {
+        @media screen and (max-width: ($width - 1)) {
+            @content;
+        }
+    } @else {
+        @media (max-width: ($width - 1)) and (min-width: $value) {
+            @content;
+        }
+    }
+}
+
+//=====================================================================================================================
+
+@mixin hover {
+    @media (any-hover: hover) {
+        &:hover {
+            @content;
+        }
+    }
+}
+
+//=====================================================================================================================
+
+@mixin font_face(
+    $file_name,
+    $font_name,
+    $weight: normal,
+    $style: normal
+) {
+    @font-face {
+        font-family: $font_name;
+        src: url('./#{$file_name}.ttf') format('truetype'), 
+            url('./#{$file_name}.woff') format('woff'),
+            url('./#{$file_name}.woff2') format('woff2');
+        font-weight: $weight;
+        font-style: $style;
+        font-display: swap;
+    }
+}
+
+//=====================================================================================================================
+
+@mixin cut_string_rows($rows: 1, $maxSize: 100%) {
+    display: -webkit-box;
+    max-width: $maxSize;
+    -webkit-line-clamp: $rows;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+//=====================================================================================================================
+
+@mixin cut_string($maxSize: 100%) {
+    width: $maxSize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin hover_link($color: #000000) {    
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $color;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    @include hover {
+        &::after {            
+            transform: translateX(0%);
+        }
+    }
+}

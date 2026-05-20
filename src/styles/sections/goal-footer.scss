@@ -1,0 +1,83 @@
+@use '../variables.scss' as *;
+@use '../mixins/global-mixins.scss' as *;
+
+.goal_footer {       
+
+    .site-footer__bottom {
+        @include break_points($tablet, min) {
+            padding: 2rem 0 3.5rem;            
+        }
+    }
+
+    .site-footer__copyright-wrapper {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .newsletter-form__submit {
+        color: var(--color-primary);
+    }   
+
+    .site-footer__block .rte {
+        margin-bottom: 1.4rem;
+
+        @include break_points($laptop_s, min) {
+            text-align: var(--text-align-block);             
+        }
+    } 
+
+    details:has(.newsletter-form) summary {   
+        @include break_points($laptop_s, min) {
+            text-align: var(--text-align-block);                    
+        }      
+    }
+
+    summary:has(.site-footer__block-heading) {
+        &:not(:last-child) {
+            @include break_points($laptop_s, min) {
+                margin-bottom: 14px;                
+            }
+        }
+    }
+
+    .newsletter-form {
+        &:not(:last-child) {
+            margin-bottom: 1.8rem;
+        }
+    }
+
+    .link--animated {
+        background-image: linear-gradient(to right, var(--color-link-hover), var(--color-link-hover));
+        font-weight: 400;
+    }    
+}
+
+.goal_footer__col_logo {
+    @include break_points($tablet) {
+        text-align: center;
+    }
+}
+
+.goal_footer__logo {
+    display: inline-flex;
+    width: 6rem;
+    height: 6rem;
+
+    &:not(:last-child) {
+        margin-bottom: 1.8rem;
+    }
+}
+
+.goal_footer__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.goal_footer__logo_info {
+    font-size: 1.4rem;
+    @include break_points($tablet) {
+        text-align: left;
+    }
+}

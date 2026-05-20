@@ -1,0 +1,39 @@
+@use '../styles/mixins/global-mixins' as *;
+
+//=====================================================================================================================
+
+//ADAPTIVE
+//=====================================================================================================================
+$mobile: 640px;
+$tablet: 768px;
+$tablet_xl: 990px;
+$laptop_s: 1024px;
+$laptop: 1200px;
+$desktop_xl: 1500px;
+$desktop_xxl: 1600px;
+
+/* ===================================================== COLORS ==================================================== */
+
+$white:#FFFFFF;
+$black: #000000;
+
+//ROOT
+//=====================================================================================================================
+:root {
+    //Layout
+    --big-main-layout: 1920px;    
+    --second-layout: 1676px;
+    --normal-main-layout: 1534px;    
+    
+    @include break_points($laptop, min) {
+        --gl-indent: 50px;
+    }
+
+    @include break_points($laptop, $tablet) {
+        --gl-indent: 30px;
+    }
+
+    @include break_points($tablet) {
+        --gl-indent: 1.5rem;
+    }  
+}
