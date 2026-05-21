@@ -25,6 +25,12 @@
       </p>
     {%- endif -%}
 
+    {%- if block.settings.logo_text != blank -%}
+      <div class="goal_footer__logo_text details__content">
+        {{ block.settings.logo_text }}
+      </div>
+    {%- endif -%}
+
     {%- liquid
       if block.settings.show_social
         render 'social-icons', size: 'lg', gap: '7'

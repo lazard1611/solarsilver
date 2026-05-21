@@ -5,6 +5,7 @@
     {%- render 'section-variables', section: section -%}
   }
 </style>
+{{ 'goal-footer.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign enable_footer_info = false
@@ -33,6 +34,9 @@
 
                 when 'text'
                   render 'footer-text', block: block
+
+                when 'contacts'
+                  render 'footer-contacts', block: block
 
                 when 'brand_information'
                   render 'footer-contact', block: block
@@ -93,6 +97,7 @@
 {% schema %}
 {
   "name": "t:sections.footer.name",
+  "class": "goal_footer",
   "max_blocks": 12,
   "settings": [
     {
@@ -290,6 +295,12 @@
           "label": "t:sections.footer.blocks.logo_social.settings.logo.label"
         },
         {
+          "type": "richtext",
+          "id": "logo_text",
+          "label": "t:sections.global.settings.text.label",
+          "default": "<p>Share contact information, store details, and brand content with your customers.</p>"
+        },
+        {
           "type": "range",
           "id": "logo_height",
           "label": "t:sections.footer.blocks.logo_social.settings.logo_height.label",
@@ -351,6 +362,34 @@
           "default": false,
           "label": "t:sections.footer.blocks.global.settings.opened.label"
         }
+      ]
+    },
+    {
+      "type": "contacts",
+      "name": "Contacts",
+      "limit": 1,
+      "settings": [
+          {
+              "type": "text",
+              "id": "heading",
+              "label": "Title",
+              "default": "Contacts"
+          },
+          {
+              "type": "inline_richtext",
+              "id": "text",
+              "label": "Text"                    
+          },
+          {
+            "type": "range",
+            "id": "container_width",
+            "label": "t:sections.footer.blocks.global.settings.container_width.label",
+            "default": 50,
+            "min": 15,
+            "max": 95,
+            "step": 1,
+            "unit": "%"
+          }                 
       ]
     },
     {

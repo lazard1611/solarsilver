@@ -1,0 +1,64 @@
+{%- doc -%}
+  Renders rich text content block in the footer with optional collapsible wrapper.
+
+  Displays HTML/rich text content either directly or within an expandable section.
+
+  @param {object} block - Shopify block object with settings and attributes
+
+  @example
+  {% render 'footer-text', block: block %}
+{%- enddoc -%}
+
+<div class="goal_footer__contacts footer__item--{{ block.id }} no-details rte" {{ block.shopify_attributes }}>
+  <style>    
+    @media screen and (min-width: 1200px) {
+      .goal_footer__contacts {
+        width: calc({{ block.settings.container_width }}% - var(--sp-12));
+      }
+    }      
+  </style>
+  {%- if block.settings.heading != blank -%}
+    <h3 class="goal_footer__contacts_head heading text-base-2xl font-medium lg:font-heading">{{ block.settings.heading | escape }}</h3>
+  {%- endif -%}
+
+  {%- if block.settings.text != blank -%}
+    <div class="details__content">
+      {{ block.settings.text }}
+    </div>
+  {%- endif -%}
+
+  {%- if settings.shop_email != blank -%}
+    <div class="goal_footer__contacts_item">
+      <div class="goal_footer__contacts_item_in">
+        <span class="goal_footer__link_icon">
+          {%- render 'icon', icon: 'email' -%}
+        </span>
+        <a href="mailto:{{ settings.shop_email }}" class="block reversed-link text-sm-lg leading-tight">                                       
+          {{ settings.shop_email }}
+        </a>
+      </div>      
+    </div>                                        
+{%- endif -%}                                   
+
+{% if settings.shop_phone != blank %} 
+    <div class="goal_footer__contacts_item">
+      <div class="goal_footer__contacts_item_in">
+        <span class="goal_footer__link_icon">
+          {%- render 'icon', icon: 'phone' -%}
+        </span>
+        {%- assign phone_number = settings.shop_phone
+          | replace: '-', ''
+          | replace: ')', ''
+          | replace: '(', ''
+          | replace: ' ', ''
+        -%}
+        <a href="tel:{{ phone_number }}" class="block reversed-link text-sm-lg leading-tight">                  
+          {{ settings.shop_phone }}
+        </a> 
+      </div>      
+    </div>                                                                                                 
+{% endif %} 
+</div>
+
+
+

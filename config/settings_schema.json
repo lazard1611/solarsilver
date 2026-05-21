@@ -1463,5 +1463,27 @@
         "unit": "s"
       }
     ]
+  },
+  {
+    "name": "Shop information",
+    "settings": [      
+      {
+        "type": "richtext",
+        "id": "shop_details",
+        "label": "Details"
+      },
+      {
+        "type": "text",
+        "id": "shop_email",
+        "label": "Shop email",
+        "default": "solarsilver.official@gmail.com"
+      },
+      {
+        "type": "text",
+        "id": "shop_phone",
+        "label": "Shop phone",
+        "default": "+38 (073) 13 66 651"
+      }
+    ]
   }
 ]

@@ -3,81 +3,46 @@
 
 .goal_footer {       
 
-    .site-footer__bottom {
-        @include break_points($tablet, min) {
-            padding: 2rem 0 3.5rem;            
+    .footer__left {
+        border-inline-end: none;
+    }
+
+    .footer__accordions .details {
+        @include break_points($laptop_s, $tablet) {
+            width: calc(50% - var(--sp-12) * 4 / 5);            
         }
-    }
-
-    .site-footer__copyright-wrapper {
-        font-size: 1.2rem;
-        margin: 0;
-    }
-
-    .newsletter-form__submit {
-        color: var(--color-primary);
-    }   
-
-    .site-footer__block .rte {
-        margin-bottom: 1.4rem;
-
-        @include break_points($laptop_s, min) {
-            text-align: var(--text-align-block);             
-        }
-    } 
-
-    details:has(.newsletter-form) summary {   
-        @include break_points($laptop_s, min) {
-            text-align: var(--text-align-block);                    
-        }      
-    }
-
-    summary:has(.site-footer__block-heading) {
-        &:not(:last-child) {
-            @include break_points($laptop_s, min) {
-                margin-bottom: 14px;                
-            }
-        }
-    }
-
-    .newsletter-form {
-        &:not(:last-child) {
-            margin-bottom: 1.8rem;
-        }
-    }
-
-    .link--animated {
-        background-image: linear-gradient(to right, var(--color-link-hover), var(--color-link-hover));
-        font-weight: 400;
-    }    
-}
-
-.goal_footer__col_logo {
-    @include break_points($tablet) {
-        text-align: center;
     }
 }
 
-.goal_footer__logo {
-    display: inline-flex;
-    width: 6rem;
-    height: 6rem;
+.goal_footer__logo_text {
+    max-width: 440px;
+}
 
+.goal_footer__contacts {
+    @include break_points($laptop) {       
+        width: 100%!important;
+    }
+}
+
+.goal_footer__contacts_head {
+    margin: 0 0 var(--sp-5)!important;
+}
+
+.goal_footer__contacts_item {    
     &:not(:last-child) {
-        margin-bottom: 1.8rem;
+        margin-bottom: 20px;
     }
 }
 
-.goal_footer__img {
+.goal_footer__contacts_item_in {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.goal_footer__link_icon {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.goal_footer__logo_info {
-    font-size: 1.4rem;
-    @include break_points($tablet) {
-        text-align: left;
-    }
+    width: 30px;
+    height: 30px;
 }
