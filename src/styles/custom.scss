@@ -4,7 +4,8 @@
 @use './fonts.scss';
 //mixins
 @use './mixins/global-mixins.scss' as *;
-
+//libraries
+@use '../../node_modules/swiper/swiper-bundle.css';
 
 /* ===================================================== COMMON ==================================================== */
 

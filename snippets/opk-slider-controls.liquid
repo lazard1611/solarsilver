@@ -1,0 +1,38 @@
+{% comment %} Example of use:
+
+    {% render 'opk-slider-controls',
+        class: 'js-section-name',             
+        mobile_visible: boolean,        
+        fraction: boolean        
+    %}
+
+{% endcomment %}
+{%- if mobile_visible -%}
+    {%- assign class_visible_state = 'slider_controls__btn--visible' -%} 
+{%- else -%}
+    {%- assign class_visible_state = '' -%}
+{%- endif -%}
+
+{%- if fraction -%}
+    {%- assign class_center = '' -%}
+{%- else -%}
+    {%- assign class_center = 'slider_controls--center' -%} 
+{%- endif -%}
+
+<div class="slider_controls {{ class_center }}">
+    <button type="button" class="slider_controls__btn {{ class_visible_state }} slider_controls__btn--prev {{class}}-prev" aria-label="slider prev">   
+        <span class="slider_controls__icon">
+            {% render 'icon', icon: 'arrow-left', size: 'sm', class: 'transform' %}             
+        </span>
+    </button>
+    
+    {%- if fraction -%}        
+        <div class="slider_controls__pagination {{class}}-pagination"></div>
+    {%- endif -%}
+
+    <button type="button" class="slider_controls__btn {{ class_visible_state }} slider_controls__btn--next {{class}}-next" aria-label="slider next">   
+        <span class="slider_controls__icon">
+            {% render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform' %}                         
+        </span>
+    </button> 
+</div>     
