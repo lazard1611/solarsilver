@@ -1,0 +1,1 @@
+import '../../styles/sections/goal-collection-list.scss';

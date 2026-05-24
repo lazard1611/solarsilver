@@ -181,37 +181,11 @@
             "color_overlay": "#171717",
             "overlay_opacity": 30
           }
-        },
-        "collection_HWNqUm": {
-          "type": "collection",
-          "settings": {
-            "collection": "колекція-luna",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_tNjbeD": {
-          "type": "collection",
-          "settings": {
-            "collection": "grape",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection-1",
-        "collection-2",
-        "collection_HWNqUm",
-        "collection_tNjbeD"
+        "collection-2"
       ],
       "settings": {
         "card_style": "standard",
@@ -219,10 +193,10 @@
         "image_ratio": "square",
         "show_products_count": false,
         "show_view_all": false,
-        "columns": 4,
-        "carousel_on_desktop": true,
+        "columns": 2,
+        "carousel_on_desktop": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "heading": "Колекції",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
@@ -243,7 +217,7 @@
         "padding_top": 100,
         "padding_bottom": 100,
         "divider": false,
-        "full_width": false,
+        "page_width": "narrow",
         "rounded": false
       }
     },
@@ -363,7 +337,7 @@
         "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
-        "full_width": false,
+        "page_width": "standart",
         "rounded": false
       }
     },
@@ -459,7 +433,6 @@
         },
         "button_zdwJRJ": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Детальніше",
             "button_link": "shopify://pages/about",
@@ -498,7 +471,7 @@
         "padding_top": 32,
         "padding_bottom": 36,
         "divider": false,
-        "full_width": true,
+        "full_width": false,
         "rounded": false,
         "enable_parallax": false,
         "parallax_direction": "zoom"
@@ -509,7 +482,7 @@
       "name": "t:sections.contact-form.name",
       "settings": {
         "heading": "Маєте питання - напишіть нам!",
-        "heading_size": "title-md",
+        "heading_size": "title-sm",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
         "subheading": "",

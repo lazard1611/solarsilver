@@ -5,9 +5,18 @@
     {%- render 'section-variables', section: section -%}
   }
 </style>
+{{ 'goal-collection-list.css' | asset_url | stylesheet_tag }}
 
-<div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}">
-  <div class="page-width{% if section.settings.full_width %} page-width--full{% endif %} relative">
+{%- assign page_class = '' -%}
+{%- case section.settings.page_width -%}
+  {%- when 'full_width' -%}
+    {%- assign page_class = 'page-width--full' -%}
+  {%- when 'narrow' -%}
+    {%- assign page_class = 'page-width--narrow' -%}
+{%- endcase -%}
+
+<div class="goal_collection_list section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}">
+  <div class="page-width {{ page_class }} relative">
     {%- capture view_all -%}
       {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
         <a class="button button--secondary icon-with-text" href="{{ routes.collections_url }}" is="hover-link">
@@ -480,11 +489,25 @@
       "default": false
     },
     {
-      "type": "checkbox",
-      "id": "full_width",
-      "label": "t:sections.global.settings.full_width.label",
-      "default": false
-    },
+      "type": "select",
+      "id": "page_width",
+      "label": "Page width",
+      "default": "standart",
+      "options": [
+          {
+              "value": "standart",
+              "label": "Standart"
+          },
+          {
+              "value": "full_width",
+              "label": "t:sections.global.settings.full_width.label"
+          },
+          {
+              "value": "narrow",
+              "label": "t:sections.global.settings.narrow.label"
+          }                                
+      ]
+    },    
     {
       "type": "checkbox",
       "id": "rounded",
