@@ -1,0 +1,36 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/styles/sections/goal-shop-the-look.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/* ===================================================== COLORS ==================================================== */
+:root {
+  --big-main-layout: 1920px;
+  --second-layout: 1676px;
+  --normal-main-layout: 1534px;
+}
+@media screen and (min-width: 1200px) {
+  :root {
+    --gl-indent: 50px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  :root {
+    --gl-indent: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  :root {
+    --gl-indent: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .goal_shop_the_look .page-width--narrow .flickity-enabled {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .goal_shop_the_look .goal_btn_text {
+    display: none;
+  }
+}

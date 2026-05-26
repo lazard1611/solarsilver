@@ -6,6 +6,9 @@
 @use './mixins/global-mixins.scss' as *;
 //libraries
 @use '../../node_modules/swiper/swiper-bundle.css';
+//snippets
+@use './snippets/goal-product-card.scss';
+
 
 /* ===================================================== COMMON ==================================================== */
 

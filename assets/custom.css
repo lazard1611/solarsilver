@@ -963,6 +963,13 @@ button.swiper-pagination-bullet {
     overflow: hidden;
   }
 
+/* ==================================================== IMPORTS ==================================================== */
+@media screen and (min-width: 1024px) {
+  .goal_product_card .product-card__details {
+    flex-direction: column;
+  }
+}
+
 /* ===================================================== COMMON ==================================================== */
 body.popup_open {
   overflow: hidden;

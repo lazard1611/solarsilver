@@ -32,8 +32,18 @@
   {% endif -%}
 </style>
 
+{{ 'goal-shop-the-look.css' | asset_url | stylesheet_tag }}
+
+{%- assign page_class = '' -%}
+{%- case section.settings.page_width -%}
+  {%- when 'full_width' -%}
+    {%- assign page_class = 'page-width--full' -%}
+  {%- when 'narrow' -%}
+    {%- assign page_class = 'page-width--narrow' -%}
+{%- endcase -%}
+
 <div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}" data-section-id="{{ section.id }}">
-  <div class="page-width{% if section.settings.full_width %} page-width--full{% endif %} relative">
+  <div class="page-width {{ page_class }} relative">
     <shop-the-look class="shop-the-look grid gap-6">
       {%- render 'section-heading', section: section -%}
 
@@ -155,6 +165,7 @@
 {% schema %}
 {
   "name": "t:sections.shop-the-look.name",
+  "class": "goal_shop_the_look",
   "max_blocks": 6,
   "settings": [
     {
@@ -474,11 +485,25 @@
       "default": false
     },
     {
-      "type": "checkbox",
-      "id": "full_width",
-      "label": "t:sections.global.settings.full_width.label",
-      "default": false
-    },
+      "type": "select",
+      "id": "page_width",
+      "label": "Page width",
+      "default": "standart",
+      "options": [
+          {
+              "value": "standart",
+              "label": "Standart"
+          },
+          {
+              "value": "full_width",
+              "label": "t:sections.global.settings.full_width.label"
+          },
+          {
+              "value": "narrow",
+              "label": "t:sections.global.settings.narrow.label"
+          }                                
+      ]
+    }, 
     {
       "type": "checkbox",
       "id": "rounded",

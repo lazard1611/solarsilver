@@ -137,7 +137,7 @@
 }
 
 .opk_hero_slider__title {
-  font-size: max(30px, min(5.8vw, 64px)) !important;
+  font-size: max(30px, min(5.8vw, 74px)) !important;
   line-height: 0.9;
 }
 @media screen and (min-width: 768px) {
@@ -154,21 +154,26 @@
 .opk_hero_slider__text {
   font-style: normal;
   font-weight: 400;
+  line-height: 1.25;
+}
+.opk_hero_slider__text h1, .opk_hero_slider__text h2, .opk_hero_slider__text h3, .opk_hero_slider__text h4, .opk_hero_slider__text h5, .opk_hero_slider__text h6, .opk_hero_slider__text span {
+  color: inherit;
 }
 .opk_hero_slider__text p {
   line-height: inherit;
 }
 @media screen and (min-width: 768px) {
   .opk_hero_slider__text {
-    font-size: 24px;
-    line-height: 1.41;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 767px) {
   .opk_hero_slider__text {
     font-size: 18px;
-    line-height: 1.44;
   }
+}
+.opk_hero_slider__text > *:not(:last-child) {
+  margin-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
   .opk_hero_slider__text:not(:last-child) {

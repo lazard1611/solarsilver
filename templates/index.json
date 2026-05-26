@@ -76,34 +76,11 @@
         "slide_eFJiPK": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/hero-1.webp",
-            "heading": "Your cosmic jewelry",
+            "bg": "shopify://shop_images/hero-2_2f602126-7032-4de9-bc10-fbcc30fe4bb9.webp",
+            "heading": "SOLAR SILVER",
             "type_title": "h1",
-            "text": "",
-            "button_label": "Переглянути каталог",
-            "button_link": "shopify://collections",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true,
-            "width_content": 500,
-            "bg_color": "#f5efe2",
-            "text_color": "#fdfdfd",
-            "color_button_text": "#171717",
-            "color_button_background": "#fdfdfd",
-            "color_button_gradient": "",
-            "color_overlay": "#171717",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_NNAW9c": {
-          "type": "slide",
-          "settings": {
-            "bg": "shopify://shop_images/hero-2.webp",
-            "heading": "Отримай -10% на все замовлення прикупівлі трьохприкрас",
-            "type_title": "h1",
-            "text": "",
-            "button_label": "Переглянути каталог",
+            "text": "<h3><strong>Твоя прикраса. Твій настрій. Твоє сяйво.</strong></h3><p>Коли хочеться відчувати себе особливою без особливого приводу</p>",
+            "button_label": "До каталогу",
             "button_link": "shopify://collections",
             "button_style": "primary",
             "button_size": "md",
@@ -111,42 +88,65 @@
             "button_icon": true,
             "width_content": 700,
             "bg_color": "#f5efe2",
-            "text_color": "#fdfdfd",
-            "color_button_text": "#171717",
-            "color_button_background": "#ffffff",
+            "text_color": "#534336",
+            "color_button_text": "#fdfdfd",
+            "color_button_background": "#534336",
             "color_button_gradient": "",
             "color_overlay": "#171717",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "slide_c6Lye7": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/hero-3.webp",
-            "heading": "Отримай -10% на другу прикрасу!",
-            "type_title": "h1",
-            "text": "",
-            "button_label": "Переглянути каталог",
+            "bg": "shopify://shop_images/hero-1_0ac0e1e4-fa75-4ff8-af1b-e04aa238d9da.webp",
+            "heading": "Унікальність    у кожній деталі",
+            "type_title": "h2",
+            "text": "<p>Прикраси ручної роботи, щоб підкреслити твою жіночність</p>",
+            "button_label": "До каталогу",
             "button_link": "shopify://collections",
             "button_style": "primary",
             "button_size": "md",
             "button_external": false,
             "button_icon": true,
-            "width_content": 700,
+            "width_content": 650,
             "bg_color": "#f5efe2",
-            "text_color": "#fdfdfd",
-            "color_button_text": "#171717",
-            "color_button_background": "#ffffff",
+            "text_color": "#ffddbf",
+            "color_button_text": "#5a493a",
+            "color_button_background": "#ffddbf",
             "color_button_gradient": "",
             "color_overlay": "#171717",
             "overlay_opacity": 30
+          }
+        },
+        "slide_WwYYpk": {
+          "type": "slide",
+          "settings": {
+            "bg": "shopify://shop_images/3.webp",
+            "heading": "SOLAR SILVER",
+            "type_title": "h2",
+            "text": "<h2>Унікальність    у кожній деталі</h2><p>Прикраси створені для жінок, які уінують красу, легкість, характер.</p>",
+            "button_label": "До каталогу",
+            "button_link": "shopify://collections",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "width_content": 600,
+            "bg_color": "#f5efe2",
+            "text_color": "#534336",
+            "color_button_text": "#fdfdfd",
+            "color_button_background": "#534336",
+            "color_button_gradient": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
           }
         }
       },
       "block_order": [
         "slide_eFJiPK",
-        "slide_NNAW9c",
-        "slide_c6Lye7"
+        "slide_c6Lye7",
+        "slide_WwYYpk"
       ],
       "name": "Hero slider",
       "settings": {
@@ -155,75 +155,34 @@
         "image_height": "700px"
       }
     },
-    "collection-list": {
+    "collection_list_w9BezB": {
       "type": "collection-list",
       "blocks": {
-        "collection-1": {
+        "collection_84DFHH": {
           "type": "collection",
           "settings": {
-            "collection": "novelty",
+            "collection": "new-collection",
+            "image": "shopify://shop_images/collection-new.webp",
             "title": "Новинки",
             "description": "",
             "overlay_content": false,
             "color_text": "#ffffff",
-            "color_overlay": "#171717",
-            "overlay_opacity": 0
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
           }
         },
-        "collection-2": {
+        "collection_QG43jf": {
           "type": "collection",
           "settings": {
             "collection": "comet",
-            "title": "Колекція \"Комета\"",
+            "title": "",
             "description": "",
             "overlay_content": false,
-            "color_text": "#2c2b27",
-            "color_overlay": "#171717",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
             "overlay_opacity": 30
           }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2"
-      ],
-      "settings": {
-        "card_style": "standard",
-        "image_type": "collection",
-        "image_ratio": "square",
-        "show_products_count": false,
-        "show_view_all": false,
-        "columns": 2,
-        "carousel_on_desktop": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "heading": "Колекції",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "highlighted_reveal": false,
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "divider": false,
-        "page_width": "narrow",
-        "rounded": false
-      }
-    },
-    "collection_list_w9BezB": {
-      "type": "collection-list",
-      "blocks": {
+        },
         "collection_KEJWF8": {
           "type": "collection",
           "settings": {
@@ -298,6 +257,8 @@
         }
       },
       "block_order": [
+        "collection_84DFHH",
+        "collection_QG43jf",
         "collection_KEJWF8",
         "collection_h8YLf8",
         "collection_3QR4xe",
@@ -308,12 +269,12 @@
       "custom_css": [],
       "name": "t:sections.collection-list.name",
       "settings": {
-        "card_style": "standard",
+        "card_style": "overlap",
         "image_type": "collection",
         "image_ratio": "square",
         "show_products_count": false,
         "show_view_all": false,
-        "columns": 3,
+        "columns": 4,
         "carousel_on_desktop": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -321,78 +282,6 @@
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "highlighted_reveal": false,
-        "color_text": "",
-        "color_background": "#dedede",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "page_width": "standart",
-        "rounded": false
-      }
-    },
-    "featured_collection_qfqhkR": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.name",
-      "settings": {
-        "collection": "bestsellers",
-        "products": [],
-        "product_limit": 4,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "heading": "Бестселери",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "highlighted_reveal": false,
-        "color_text": "",
-        "color_background": "#dedede",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "featured_collection_XBDrEM": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.name",
-      "settings": {
-        "collection": "novelty",
-        "products": [],
-        "product_limit": 4,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "heading": "Новинки",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h6",
         "subheading": "",
         "description": "",
         "highlighted_text": "none",
@@ -407,9 +296,9 @@
         "color_button_background": "",
         "color_button_gradient": "",
         "padding_top": 72,
-        "padding_bottom": 72,
+        "padding_bottom": 116,
         "divider": false,
-        "full_width": false,
+        "page_width": "standart",
         "rounded": false
       }
     },
@@ -459,9 +348,9 @@
         "image_height_mobile": "auto",
         "text_alignment_mobile": "left",
         "color_text": "",
-        "color_background": "#f8ded3",
+        "color_background": "#dedede",
         "gradient_background": "",
-        "color_background_2": "#f8ded3",
+        "color_background_2": "rgba(0,0,0,0)",
         "gradient_background_2": "",
         "color_highlight": "",
         "gradient_highlight": "",
@@ -477,11 +366,76 @@
         "parallax_direction": "zoom"
       }
     },
-    "contact_form_cCwKY8": {
-      "type": "contact-form",
-      "name": "t:sections.contact-form.name",
+    "featured_collection_XBDrEM": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
       "settings": {
-        "heading": "Маєте питання - напишіть нам!",
+        "collection": "novelty",
+        "products": [],
+        "product_limit": 4,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Новинки",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h6",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "highlighted_reveal": false,
+        "color_text": "",
+        "color_background": "#fdfdfd",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "shop_the_look_BqFPCM": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_EfqdiN": {
+          "type": "product",
+          "settings": {
+            "product": "сережки-цвяшки-з-підвісками-luna",
+            "color_text": "#ffffff",
+            "vertical": 36,
+            "horizontal": 24,
+            "vertical_mobile": 36,
+            "horizontal_mobile": 24
+          }
+        },
+        "product_zTHKKE": {
+          "type": "product",
+          "settings": {
+            "product": "підвіска-luna-на-срічці",
+            "color_text": "#ffffff",
+            "vertical": 75,
+            "horizontal": 51,
+            "vertical_mobile": 75,
+            "horizontal_mobile": 51
+          }
+        }
+      },
+      "block_order": [
+        "product_EfqdiN",
+        "product_zTHKKE"
+      ],
+      "name": "t:sections.shop-the-look.name",
+      "settings": {
+        "image": "shopify://shop_images/lookboock-1.webp",
+        "heading": "",
         "heading_size": "title-sm",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
@@ -502,8 +456,146 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 80,
+        "color_overlay": "#171717",
+        "overlay_opacity": 30,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "page_width": "narrow",
+        "rounded": false
+      }
+    },
+    "featured_collection_qfqhkR": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "collection": "bestsellers",
+        "products": [],
+        "product_limit": 4,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Бестселери",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "highlighted_reveal": false,
+        "color_text": "",
+        "color_background": "#dedede",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
         "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "17797355578f3ca841": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_dHaPqP": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_dHaPqP"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "newsletter_Ma3Qx8": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_UFh4mN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Будь особливою першою",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "highlighted_reveal": false
+          }
+        },
+        "text_qGWcq4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Залиши свою пошту щоб бути на одній хвилі краси</p>",
+            "text_font": "body",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_line_height": 1.6,
+            "text_letter_spacing": 0,
+            "text_capitalize": false,
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "form_defx94": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_UFh4mN",
+        "text_qGWcq4",
+        "form_defx94"
+      ],
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "content_width": "medium",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 20,
         "divider": false,
         "narrow": true,
         "rounded": false
@@ -513,11 +605,12 @@
   "order": [
     "image_with_text_overlay_GYDmUW",
     "opk_hero_slider_fpQmjb",
-    "collection-list",
     "collection_list_w9BezB",
-    "featured_collection_qfqhkR",
-    "featured_collection_XBDrEM",
     "image_with_text_NpKeEi",
-    "contact_form_cCwKY8"
+    "featured_collection_XBDrEM",
+    "shop_the_look_BqFPCM",
+    "featured_collection_qfqhkR",
+    "17797355578f3ca841",
+    "newsletter_Ma3Qx8"
   ]
 }

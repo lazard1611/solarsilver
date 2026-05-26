@@ -1,0 +1,11 @@
+@use '../variables.scss' as *;
+//mixins
+@use '../mixins/global-mixins.scss' as *;
+
+.goal_product_card {
+    .product-card__details {
+        @include break_points($laptop_s, min) {
+            flex-direction: column;            
+        }
+    }
+}

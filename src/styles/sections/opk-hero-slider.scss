@@ -67,7 +67,7 @@
 }
 
 .opk_hero_slider__title {
-    font-size: clamp(30px, 5.8vw, 64px)!important;
+    font-size: clamp(30px, 5.8vw, 74px)!important;
     line-height: 0.9;    
 
     &:not(:last-child) {
@@ -84,19 +84,26 @@
 .opk_hero_slider__text {    
     font-style: normal;
     font-weight: 400;        
+    line-height: 1.25;
+
+    h1, h2, h3, h4, h5, h6, span {
+        color: inherit;
+    }
 
     p {
         line-height: inherit;
     }
 
     @include break_points($tablet, min) {
-        font-size: 24px;
-        line-height: 1.41;
+        font-size: 20px;
     }
 
     @include break_points($tablet) {
-        font-size: 18px;
-        line-height: 1.44;
+        font-size: 18px;        
+    }
+
+    > *:not(:last-child) {
+        margin-bottom: 16px;
     }
 
     &:not(:last-child) {

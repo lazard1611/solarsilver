@@ -1,0 +1,19 @@
+@use '../variables.scss' as *;
+//mixins
+@use '../mixins/global-mixins.scss' as *;
+
+.goal_shop_the_look {
+    .page-width--narrow {
+        .flickity-enabled {
+            @include break_points($tablet, min) {
+                padding-inline: 20px;                
+            }
+        }
+    }
+
+    .goal_btn_text {
+        @include break_points($tablet) {
+            display: none;
+        }
+    }
+}

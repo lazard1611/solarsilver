@@ -62,7 +62,7 @@
       assign sizes = '(max-width: 639px) 50vw, 33vw'
     endunless
   -%}
-  <div class="card product-card product-card--{{ settings.card_style }}{% if settings.card_border_thickness > 0 %} product-card--thickness{% endif %}{% unless featured_media %} no-media{% endunless %}{% if product.available and show_quick_add and mobile_quick_add %} mobile:with-quick-add{% endif %} flex flex-col leading-none relative">
+  <div class="goal_product_card card product-card product-card--{{ settings.card_style }}{% if settings.card_border_thickness > 0 %} product-card--thickness{% endif %}{% unless featured_media %} no-media{% endunless %}{% if product.available and show_quick_add and mobile_quick_add %} mobile:with-quick-add{% endif %} flex flex-col leading-none relative">
     {%- if featured_media -%}
       <div class="product-card__media relative h-auto">
         {%- if show_quick_view -%}
@@ -534,20 +534,16 @@
               <button type="button" class="button button--primary button--small icon-with-text" is="hover-button" aria-label="{{ 'products.product.quick_view_label' | t: title: product.title | escape }}" aria-controls="{{ quick_view_id }}" aria-expanded="false">
                 <span class="btn-fill" data-fill></span>
                 <span class="btn-text">
-                  {%- liquid
-                    render 'icon', icon: 'plus', size: '2xs'
-                    echo 'products.product.quick_view' | t
-                  -%}
+                  {%- render 'icon', icon: 'plus', size: '2xs' -%}
+                  <span class="goal_btn_text">{{ 'products.product.quick_view' | t }}</span>
                 </span>
               </button>
             {%- else -%}
               <a href="{{ product.url }}" class="button button--primary button--small icon-with-text" is="hover-link" aria-label="{{ 'products.product.quick_view_label' | t: title: product.title | escape }}">
                 <span class="btn-fill" data-fill></span>
                 <span class="btn-text">
-                  {%- liquid
-                    render 'icon', icon: 'plus', size: '2xs'
-                    echo 'products.product.quick_view' | t
-                  -%}
+                  {%- render 'icon', icon: 'plus', size: '2xs' -%}
+                  <span class="goal_btn_text">{{ 'products.product.quick_view' | t }}</span>                    
                 </span>
               </a>
             {%- endif -%}

@@ -1,0 +1,1 @@
+import '../../styles/sections/goal-shop-the-look.scss';
