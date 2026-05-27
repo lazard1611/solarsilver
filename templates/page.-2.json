@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "main-page": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "heading_size": "title-lg tracking-heading",
+          "heading_alignment": "text-left",
+          "heading_tag": "h1",
+          "text_size": "text-base",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "divider": false,
+          "narrow": false,
+          "rounded": false
+        }
+      },
+      "image_with_text_LMKXmj": {
+        "type": "image-with-text",
+        "blocks": {
+          "heading_CwDc7E": {
+            "type": "heading",
+            "settings": {
+              "heading": "Зберігання та догляд",
+              "heading_size": "title-md",
+              "heading_tag": "h1",
+              "highlighted_text": "none",
+              "highlighted_scribble": "circle",
+              "highlighted_reveal": false
+            }
+          },
+          "text_dL7KrR": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Радимо зберігати прикраси у індивідуальному м’якому мішечку, що іде в комплекті з кожною прикрасою. Це допоможе захистити від механічних пошкоджень, прямих сонячних променів та вологості.</p><p>Декілька простих рекомендацій, що допоможуть подовжити життя та зберегти блиск ваших прикрас:</p><ul><li>Уникайти впливу будь-яких хімічних речовин або сильнодіючих продуктів, таких як парфуми та косметичні засоби</li><li>Уникати контактів з водою</li><li>Знімати прикраси перед сном, щоб уникнути деформації та механічних пошкоджень</li><li>Знімати прикраси перед заняттям спортом, щоб уникнути впливу поту </li></ul>",
+              "text_font": "body",
+              "text_size": "subtext-md",
+              "text_max_size": 32,
+              "text_line_height": 1.6,
+              "text_letter_spacing": 0,
+              "text_capitalize": false,
+              "secondary_color": false,
+              "highlighted_text": "none",
+              "highlighted_scribble": "circle"
+            }
+          }
+        },
+        "block_order": [
+          "heading_CwDc7E",
+          "text_dL7KrR"
+        ],
+        "name": "t:sections.image-with-text.name",
+        "settings": {
+          "image": "shopify://shop_images/imgonline-com-ua-Resize-8NDOPOeXRrEb8EkN.jpg",
+          "image_height": "700px",
+          "image_width": "small",
+          "layout": "text_first",
+          "text_alignment": "left",
+          "content_position": "align-self-center",
+          "image_height_mobile": "auto",
+          "text_alignment_mobile": "left",
+          "color_text": "",
+          "color_background": "",
+          "gradient_background": "",
+          "color_background_2": "",
+          "gradient_background_2": "",
+          "color_highlight": "",
+          "gradient_highlight": "",
+          "color_button_text": "",
+          "color_button_background": "",
+          "color_button_gradient": "",
+          "padding_top": 72,
+          "padding_bottom": 100,
+          "divider": false,
+          "full_width": false,
+          "rounded": false,
+          "enable_parallax": false,
+          "parallax_direction": "vertical"
+        }
+      }
+    },
+    "order": [
+      "main-page",
+      "image_with_text_LMKXmj"
+    ]
+  }
+  

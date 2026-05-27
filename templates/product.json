@@ -12,6 +12,10 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_j4H6p6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "rating_T8qUpt": {
           "type": "rating",
           "settings": {}
@@ -59,7 +63,7 @@
             "show_variant_labels": true,
             "picker_type": "button",
             "enable_color_swatches": true,
-            "color_swatch_type": "variant",
+            "color_swatch_type": "color",
             "size_chart": ""
           }
         },
@@ -165,6 +169,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_j4H6p6",
         "rating_T8qUpt",
         "vendor",
         "title",
@@ -377,6 +382,38 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "177991747148764604": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_r3kEtk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": true,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_r3kEtk"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -384,6 +421,7 @@
     "help-drawer",
     "scrolling-text",
     "product-recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "177991747148764604"
   ]
 }
