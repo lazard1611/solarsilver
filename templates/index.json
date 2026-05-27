@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "image_with_text_overlay_GYDmUW": {
       "type": "image-with-text-overlay",
@@ -128,7 +128,7 @@
             "bg_mob": "shopify://shop_images/hero-3-mob.webp",
             "heading": "SOLAR SILVER",
             "type_title": "h2",
-            "text": "<h2>Унікальність    у кожній деталі</h2><p>Прикраси створені для жінок, які уінують красу, легкість, характер.</p>",
+            "text": "<h2>Унікальність    у кожній деталі</h2><p>Прикраси створені для жінок, які цінують красу, легкість, характер.</p>",
             "button_label": "До каталогу",
             "button_link": "shopify://collections",
             "button_style": "primary",
@@ -405,6 +405,42 @@
         "parallax_direction": "zoom"
       }
     },
+    "featured_collection_XBDrEM": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "collection": "novelty",
+        "products": [],
+        "product_limit": 4,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Новинки",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h6",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "highlighted_reveal": false,
+        "color_text": "",
+        "color_background": "#fdfdfd",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "multicolumn_with_icons_EeRJd7": {
       "type": "multicolumn-with-icons",
       "blocks": {
@@ -479,42 +515,6 @@
         "highlighted_reveal": false,
         "color_text": "",
         "color_background": "#dedede",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "featured_collection_XBDrEM": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.name",
-      "settings": {
-        "collection": "novelty",
-        "products": [],
-        "product_limit": 4,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "Новинки",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h6",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "highlighted_reveal": false,
-        "color_text": "",
-        "color_background": "#fdfdfd",
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
