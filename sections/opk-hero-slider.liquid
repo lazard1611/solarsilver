@@ -7,7 +7,7 @@
 <style>
   {%- for block in section.blocks -%}
     #shopify-block-{{ block.id }} {
-      {%- render 'section-variables', section: block -%}
+        {%- render 'section-variables', section: block -%}
     }
 
     #shopify-block-{{ block.id }} .opk_hero_slider__bg::after {
@@ -22,23 +22,29 @@
         {%- for block in section.blocks -%}         
             {%- assign title_tag = block.settings.type_title -%}            
 
-            <div id="shopify-block-{{ block.id }}" class="swiper-slide opk_hero_slider__item" style="--bg-hero-slider-color: {{ block.settings.bg_color }}; min-height: {{ section.settings.image_height }}">                
-               
+            <div id="shopify-block-{{ block.id }}" class="swiper-slide opk_hero_slider__item" style="--bg-hero-slider-color: {{ block.settings.bg_color }}; min-height: {{ section.settings.image_height }}; --text-color: {{ block.settings.text_color }};">                
+                {%- if block.settings.bg_mob != blank -%}
+                    {%- assign img_class = 'opk_hero_slider__img opk_hero_slider__img--desktop' -%}
+                {%- else -%}
+                    {%- assign img_class = 'opk_hero_slider__img' -%}
+                {%- endif -%}
                 <picture class="opk_hero_slider__bg"> 
                         {%- if block.settings.bg != blank -%}
-                            {{
-                                block.settings.bg
-                                | image_url: width: 1000
-                                | image_tag:
-                                    class: 'opk_hero_slider__img',
-                                    alt: 'Hero image',
-                                    loading: 'eager',
-                                    fetchpriority: 'high',
-                                    widths: '400, 600, 800, 1000',
-                                    sizes: '(max-width: 768px) 100vw, 50vw',
-                                    width: block.settings.bg.width,
-                                    height: block.settings.bg.height
-                            }}
+                            <img loading="eager" fetchpriority="high" src="{{ block.settings.bg | image_url}}" alt="Hero image" class="{{ img_class }}">                           
+
+                            {%- if block.settings.bg_mob != blank -%}                                
+                                {{
+                                    block.settings.bg_mob
+                                    | image_url: width: 800
+                                    | image_tag:
+                                        class: 'opk_hero_slider__img opk_hero_slider__img--mobile',
+                                        alt: 'Hero image',
+                                        loading: 'eager',
+                                        fetchpriority: 'high',                                        
+                                        width: block.settings.bg.width,
+                                        height: block.settings.bg.height
+                                }}
+                            {%- endif -%}
                         {% elsif block.settings.video != blank %}
                             {{
                                 block.settings.video
@@ -60,11 +66,11 @@
 
                     <div style="max-width: {{ block.settings.width_content }}px;" class="opk_hero_slider__content">
                         {%- if block.settings.heading != blank -%}
-                            <{{ title_tag }} style="color: {{ block.settings.text_color }};" class="opk_hero_slider__title">{{- block.settings.heading -}}</{{ title_tag }}>
+                            <{{ title_tag }} class="opk_hero_slider__title">{{- block.settings.heading -}}</{{ title_tag }}>
                         {%- endif -%}
     
                         {%- if block.settings.text != blank -%}
-                            <div style="color: {{ block.settings.text_color }};" class="opk_hero_slider__text">{{- block.settings.text -}}</div>
+                            <div class="opk_hero_slider__text">{{- block.settings.text -}}</div>
                         {%- endif -%}
     
                         {%- if block.settings.button_label != blank -%}
@@ -190,6 +196,11 @@
                             "type": "image_picker",
                             "id": "bg",
                             "label": "Image"
+                        },
+                        {
+                            "type": "image_picker",
+                            "id": "bg_mob",
+                            "label": "Image for mobile"
                         },
                         {
                             "type": "video",

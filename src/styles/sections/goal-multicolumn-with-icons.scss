@@ -1,0 +1,12 @@
+@use '../variables.scss' as *;
+//mixins
+@use '../mixins/global-mixins.scss' as *;
+
+.goal_multicolumns {
+    .title-wrapper {
+        @include break_points($laptop_s) {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}

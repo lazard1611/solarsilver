@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "image_with_text_overlay_GYDmUW": {
       "type": "image-with-text-overlay",
@@ -76,7 +76,8 @@
         "slide_eFJiPK": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/hero-2_2f602126-7032-4de9-bc10-fbcc30fe4bb9.webp",
+            "bg": "shopify://shop_images/hero-1_c57c859a-d543-4c65-9126-49fd7c042ce2.webp",
+            "bg_mob": "shopify://shop_images/hero-1-mob.webp",
             "heading": "SOLAR SILVER",
             "type_title": "h1",
             "text": "<h3><strong>Твоя прикраса. Твій настрій. Твоє сяйво.</strong></h3><p>Коли хочеться відчувати себе особливою без особливого приводу</p>",
@@ -99,7 +100,8 @@
         "slide_c6Lye7": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/hero-1_0ac0e1e4-fa75-4ff8-af1b-e04aa238d9da.webp",
+            "bg": "shopify://shop_images/hero-2_abd6cf05-e169-45a8-ab9f-21c521a19f1a.webp",
+            "bg_mob": "shopify://shop_images/hero-2-mob.webp",
             "heading": "Унікальність    у кожній деталі",
             "type_title": "h2",
             "text": "<p>Прикраси ручної роботи, щоб підкреслити твою жіночність</p>",
@@ -116,13 +118,14 @@
             "color_button_background": "#ffddbf",
             "color_button_gradient": "",
             "color_overlay": "#171717",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "slide_WwYYpk": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/3.webp",
+            "bg": "shopify://shop_images/hero-3_e7eb5e8c-1e88-413b-90b9-6989b3c38e59.webp",
+            "bg_mob": "shopify://shop_images/hero-3-mob.webp",
             "heading": "SOLAR SILVER",
             "type_title": "h2",
             "text": "<h2>Унікальність    у кожній деталі</h2><p>Прикраси створені для жінок, які уінують красу, легкість, характер.</p>",
@@ -139,7 +142,7 @@
             "color_button_background": "#534336",
             "color_button_gradient": "",
             "color_overlay": "#171717",
-            "overlay_opacity": 10
+            "overlay_opacity": 0
           }
         }
       },
@@ -402,6 +405,93 @@
         "parallax_direction": "zoom"
       }
     },
+    "multicolumn_with_icons_EeRJd7": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_mhJLHp": {
+          "type": "column",
+          "settings": {
+            "icon": "gift",
+            "custom_icon": "",
+            "heading": "Авторські прикраси",
+            "text": "<p>Кожна прикраса створюється вручну дизайнером, який черпає натхнення з космосу, подорожей та живої природи.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_dbDb8x": {
+          "type": "column",
+          "settings": {
+            "icon": "chat_bubble",
+            "custom_icon": "",
+            "heading": "Підтримка 24/7",
+            "text": "<p>Наші менеджери завжди на зв’язку — консультуємо вас у будь-який час, навіть у вихідні.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_bRQTRw": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Гарантії якості",
+            "text": "<p>1 рік офіційної гарантії на прикраси з натуральних матеріалів + безкоштовний ремонт навіть після гарантійного терміну.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_xjLEdV": {
+          "type": "column",
+          "settings": {
+            "icon": "box",
+            "custom_icon": "",
+            "heading": "Доставка та вигода",
+            "text": "<p>Безкоштовна доставка від 2000 грн, -10% на другу прикрасу та -10% при покупці трьох.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_mhJLHp",
+        "column_dbDb8x",
+        "column_bRQTRw",
+        "column_xjLEdV"
+      ],
+      "name": "t:sections.multicolumn-with-icons.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "left",
+        "heading": "Чому обирають саме нас?",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "highlighted_reveal": false,
+        "color_text": "",
+        "color_background": "#dedede",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "featured_collection_XBDrEM": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.name",
@@ -609,6 +699,7 @@
     "collection_list_w9BezB",
     "image_with_text_NpKeEi",
     "featured_collection_XBDrEM",
+    "multicolumn_with_icons_EeRJd7",
     "shop_the_look_BqFPCM",
     "17797355578f3ca841",
     "newsletter_Ma3Qx8"

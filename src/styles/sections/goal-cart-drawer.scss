@@ -1,0 +1,14 @@
+@use '../variables.scss' as *;
+//mixins
+@use '../mixins/global-mixins.scss' as *;
+
+.goal_cart_drawer {
+
+    .drawer__footer-buttons {
+
+    }    
+}
+
+.goal_cart_drawer__bottom_wrap {
+    grid-template-columns: 100%;
+}

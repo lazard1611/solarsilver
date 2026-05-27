@@ -1024,3 +1024,8 @@ body.popup_open {
   display: none;
   opacity: 0;
 }
+
+.discounts .badge {
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}

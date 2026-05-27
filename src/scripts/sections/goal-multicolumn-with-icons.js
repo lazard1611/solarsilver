@@ -1,0 +1,1 @@
+import '../../styles/sections/goal-multicolumn-with-icons.scss';

@@ -52,7 +52,7 @@
         }
 
         @include break_points($tablet_xl) {
-            padding: 60px 0;                        
+            padding: 30px 0;                        
         }
     }
 }
@@ -69,6 +69,10 @@
 .opk_hero_slider__title {
     font-size: clamp(30px, 5.8vw, 74px)!important;
     line-height: 0.9;    
+    
+    @include break_points($tablet, min) {        
+        color: var(--text-color);
+    }
 
     &:not(:last-child) {
         @include break_points($tablet, min) {
@@ -96,6 +100,7 @@
 
     @include break_points($tablet, min) {
         font-size: 20px;
+        color: var(--text-color);
     }
 
     @include break_points($tablet) {
@@ -121,13 +126,17 @@
     display: flex;
     align-items: center;
     gap: 22px;
+
+    .button {
+        @include break_points($tablet) {
+            --color-button-background: 0, 0, 0 !important;
+            --color-button-border: 0, 0, 0 !important;
+        }
+    }
 }
 
 .opk_hero_slider__bg {
-    position: absolute;
-    top: 0;    
-    height: 100%;
-
+   
     @include break_points($tablet_xl, min) {
         left: calc(var(--gl-indent)* -1);
         width: calc(100% + var(--gl-indent));
@@ -136,6 +145,17 @@
     @include break_points($tablet_xl) {
         left: 0;
         width: 100vw;        
+    }
+
+    @include break_points($tablet, min) {
+        position: absolute;
+        top: 0;    
+        height: 100%;
+    
+    }
+
+    @include break_points($tablet) {       
+        height: clamp(400px, 79vw, 600px);        
     }
 
     &:after {
@@ -153,6 +173,18 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    &.opk_hero_slider__img--desktop {
+        @include break_points($tablet) {
+            display: none;
+        }
+    }
+
+    &.opk_hero_slider__img--mobile {
+        @include break_points($tablet, min) {
+            display: none;
+        }
+    }
 }
 
 .opk_hero_slider__pic {
