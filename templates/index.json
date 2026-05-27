@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "image_with_text_overlay_GYDmUW": {
       "type": "image-with-text-overlay",
@@ -153,6 +153,42 @@
         "slider_autoplay_speed": 3,
         "transparent_header": false,
         "image_height": "700px"
+      }
+    },
+    "featured_collection_qfqhkR": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "collection": "bestsellers",
+        "products": [],
+        "product_limit": 4,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Бестселери",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "highlighted_reveal": false,
+        "color_text": "",
+        "color_background": "#dedede",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
       }
     },
     "collection_list_w9BezB": {
@@ -465,42 +501,6 @@
         "rounded": false
       }
     },
-    "featured_collection_qfqhkR": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.name",
-      "settings": {
-        "collection": "bestsellers",
-        "products": [],
-        "product_limit": 4,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "Бестселери",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "highlighted_reveal": false,
-        "color_text": "",
-        "color_background": "#dedede",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "17797355578f3ca841": {
       "type": "apps",
       "blocks": {
@@ -605,11 +605,11 @@
   "order": [
     "image_with_text_overlay_GYDmUW",
     "opk_hero_slider_fpQmjb",
+    "featured_collection_qfqhkR",
     "collection_list_w9BezB",
     "image_with_text_NpKeEi",
     "featured_collection_XBDrEM",
     "shop_the_look_BqFPCM",
-    "featured_collection_qfqhkR",
     "17797355578f3ca841",
     "newsletter_Ma3Qx8"
   ]
