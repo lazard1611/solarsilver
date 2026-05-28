@@ -5,10 +5,14 @@
 .goal_cart_drawer {
 
     .drawer__footer-buttons {
-
-    }    
+        
+    }   
+    
+    .tax-note {
+        font-size: 14px;
+    }
 }
 
 .goal_cart_drawer__bottom_wrap {
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr auto;
 }

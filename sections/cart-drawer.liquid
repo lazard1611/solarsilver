@@ -732,7 +732,7 @@
                       -%}
                     </div>
                     <div class="totals grid place-self-end gap-1">
-                      <span class="totals__subtotal text-sm sm:text-base">{{ 'cart.general.subtotal' | t }}</span>
+                      {% comment %} <span class="totals__subtotal text-sm sm:text-base">{{ 'cart.general.subtotal' | t }}</span> {% endcomment %}
                       <div class="totals__subtotal-value text-lg-2xl font-bold leading-none tracking-tight">{{ cart.total_price | money_with_currency }}</div>
                     </div>
                   </div>

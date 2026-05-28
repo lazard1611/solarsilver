@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "image_with_text_overlay_GYDmUW": {
       "type": "image-with-text-overlay",
@@ -155,7 +155,7 @@
       "settings": {
         "slider_autoplay_speed": 3,
         "transparent_header": false,
-        "image_height": "700px"
+        "image_height": "600px"
       }
     },
     "featured_collection_qfqhkR": {

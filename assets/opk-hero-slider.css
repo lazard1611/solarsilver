@@ -201,6 +201,7 @@
   .opk_hero_slider__btn_wrap .button {
     --color-button-background: 0, 0, 0 !important;
     --color-button-border: 0, 0, 0 !important;
+    --color-button-text: 255, 255, 255 !important;
   }
 }
 

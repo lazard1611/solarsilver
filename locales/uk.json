@@ -277,7 +277,7 @@
       "taxes_included_and_shipping_policy_html": "З податком. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Вартість доставки</a> розраховується при оформленні замовлення.",
       "taxes_and_shipping_at_checkout": "Включено податки та розрахунок доставки під час оформлення замовлення.",
       "update": "Оновити кошик",
-      "checkout": "Виїзд",
+      "checkout": "Перейти до оплати",
       "we_accept": "Ми приймаємо",
       "empty": "Ваш кошик зараз порожній.",
       "continue_shopping": "Продовжуйте покупки"
@@ -622,5 +622,8 @@
       "send_on": "РРРР-ММ-ДД",
       "send_on_label": "Надіслати (необов'язково)"
     }
+  },
+  "custom": {
+    "slogan": "твоє сяйво"
   }
 }

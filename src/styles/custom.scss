@@ -81,3 +81,22 @@ body {
 }
 
 //=====================================================================================================================
+
+.goal_announcement_bar {
+    .announcement__content  {
+        white-space: nowrap;
+    }
+
+    .topbar.topbar--center.page-width.page-width--full {
+        @include break_points($tablet) {
+            padding-inline: 0;
+            overflow-x: auto;            
+        }
+    }
+
+    .announcement-bar {
+        @include break_points($tablet) {
+            padding-inline: var(--page-padding);            
+        }
+    }
+}

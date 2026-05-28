@@ -29,6 +29,7 @@ const initSwiper = () => {
                 loop: true,
                 slidesPerView: 1,                                
                 spaceBetween: 16,
+                autoHeight: true,
                 navigation: {
                     nextEl: $btnNext,
                     prevEl: $btnPrev,
@@ -36,7 +37,12 @@ const initSwiper = () => {
                 effect: 'fade',
                 fadeEffect: {
                     crossFade: true
-                }                
+                },
+                breakpoints: {
+                    768: {
+                        autoHeight: false,
+                    }
+                }
             }
         )
 
