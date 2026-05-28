@@ -76,7 +76,7 @@
         "slide_eFJiPK": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/hero-1_55907a13-c1b6-420e-9e61-9c112310b798.png",
+            "bg": "shopify://shop_images/1_c61da8b3-7e87-4e86-89a0-1c8c84d8d34e.webp",
             "bg_mob": "shopify://shop_images/hero-1-mob.webp",
             "heading": "SOLAR SILVER",
             "type_title": "h1",
@@ -153,7 +153,7 @@
       ],
       "name": "Hero slider",
       "settings": {
-        "slider_autoplay_speed": 3,
+        "slider_autoplay_speed": 5,
         "transparent_header": false,
         "image_height": "600px"
       }
