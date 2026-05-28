@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "image_with_text_overlay_GYDmUW": {
       "type": "image-with-text-overlay",
@@ -76,7 +76,7 @@
         "slide_eFJiPK": {
           "type": "slide",
           "settings": {
-            "bg": "shopify://shop_images/hero-1_c57c859a-d543-4c65-9126-49fd7c042ce2.webp",
+            "bg": "shopify://shop_images/hero-1_55907a13-c1b6-420e-9e61-9c112310b798.png",
             "bg_mob": "shopify://shop_images/hero-1-mob.webp",
             "heading": "SOLAR SILVER",
             "type_title": "h1",
