@@ -633,6 +633,18 @@
     }
   },
   "custom": {
-    "slogan": "твоє сяйво"
-  }
+    "slogan": "твоє сяйво",
+    "sorting": {
+      "sort_button": "Сортувати за",
+      "featured": "Рекомендовані",
+      "most_relevant": "Найрелевантніші",
+      "best_selling": "Бестселери",
+      "title_ascending": "За алфавітом, А-Я",
+      "title_descending": "За алфавітом, Я-А",
+      "price_ascending": "Ціна: від низької до високої",
+      "price_descending": "Ціна: від високої до низької",
+      "created_ascending": "Дата: від старої до нової",
+      "created_descending": "Дата: від нової до старої"
+    }
+  } 
 }

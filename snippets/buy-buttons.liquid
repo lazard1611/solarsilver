@@ -305,7 +305,7 @@
             endif
           endunless
         -%}
-      </div>
+      </div>     
 
       {%- if product.quantity_price_breaks_configured? != true and show_quantity_selector -%}
         {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 or product.selected_or_first_available_variant.quantity_rule.min > 1 or product.selected_or_first_available_variant.quantity_rule.max != null -%}
@@ -358,7 +358,7 @@
                   <dl class="grid gap-1d5">
                     {%- for option in product.options_with_values -%}
                       <div class="flex gap-2 text-sm text-opacity leading-tight">
-                        <dt class="font-normal">{{ option.name | escape }}:</dt>
+                        <dt class="font-normal">{{ option.name | replace: ':', '' | strip | escape }}:</dt>
                         <dd>
                           {%- for value in option.values -%}
                             {%- if option.selected_value == value -%}

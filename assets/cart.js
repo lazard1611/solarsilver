@@ -492,7 +492,7 @@ if (!customElements.get('shipping-calculator')) {
           <p>${theme.shippingCalculatorStrings.error}</p>
           <ul class="list-disc grid gap-2" role="list">${shippingRatesList.join('')}</ul>
         `;
-      }
+      }      
 
       formatShippingRates(shippingRates) {
         const shippingRatesList = shippingRates.map(({ presentment_name, currency, price }) => {

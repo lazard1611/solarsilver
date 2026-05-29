@@ -100,3 +100,11 @@ body {
         }
     }
 }
+
+.sort-listbox {
+    .reversed-link.text-xl {    
+        @include break_points($tablet, min) {
+            font-size: 18px;
+        }
+    }
+}

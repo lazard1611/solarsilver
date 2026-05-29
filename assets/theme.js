@@ -4116,7 +4116,7 @@ class GMap extends HTMLElement {
 
       // Show errors only to merchant in the editor.
       if (Shopify.designMode) {
-        window.mapError(theme.strings.authError);
+        window.mapError(theme.strings.authError);        
       }
     };
 
@@ -5608,12 +5608,30 @@ class ProductForm extends HTMLFormElement {
 
   handleErrorMessage(errorMessage = false) {
     if (this.hideErrors) return;
-    
+  
     this.errorMessage = this.errorMessage || this.querySelector('.product-form__error-message');
     if (!this.errorMessage) return;
 
     this.errorMessage.toggleAttribute('hidden', !errorMessage);
-    this.errorMessage.innerText = errorMessage;
+
+    if (errorMessage) {
+      let translatedMessage = errorMessage;     
+      if (errorMessage === "The maximum quantity of this item is already in your cart.") {
+        translatedMessage = "Максимальну кількість цього товару вже додано до кошика.";
+      }
+      
+      else if (errorMessage.includes("is not available")) {
+        translatedMessage = "Товар наразі недоступний.";
+      }
+      else if (errorMessage.includes("All") && errorMessage.includes("sold out")) {
+        translatedMessage = "Весь товар розпродано.";
+      }
+      else if (errorMessage === "Invalid quantity") {
+        translatedMessage = "Невірна кількість.";
+      }
+
+      this.errorMessage.innerText = translatedMessage;
+    }    
   }
 
   toggleSubmitButton(disable = true, text, unavailable = false) {
@@ -5729,13 +5747,31 @@ class ProductStickyForm extends HTMLElement {
   }
 
   handleErrorMessage(errorMessage = false) {
-    if (this.productForm?.hideErrors) return;
-    
+    if (this.hideErrors) return;
+  
     this.errorMessage = this.errorMessage || this.querySelector('.product-form__error-message');
     if (!this.errorMessage) return;
 
     this.errorMessage.toggleAttribute('hidden', !errorMessage);
-    this.errorMessage.innerText = errorMessage;
+
+    if (errorMessage) {
+      let translatedMessage = errorMessage;     
+      if (errorMessage === "The maximum quantity of this item is already in your cart.") {
+        translatedMessage = "Максимальну кількість цього товару вже додано до кошика.";
+      }
+      
+      else if (errorMessage.includes("is not available")) {
+        translatedMessage = "Товар наразі недоступний.";
+      }
+      else if (errorMessage.includes("All") && errorMessage.includes("sold out")) {
+        translatedMessage = "Весь товар розпродано.";
+      }
+      else if (errorMessage === "Invalid quantity") {
+        translatedMessage = "Невірна кількість.";
+      }
+
+      this.errorMessage.innerText = translatedMessage;
+    }
   }
 
   toggleSubmitButton(disable = true, text) {
@@ -7591,12 +7627,30 @@ class ProductBundle extends HTMLElement {
 
   handleErrorMessage(errorMessage = false) {
     if (this.hideErrors) return;
-    
+  
     this.errorMessage = this.errorMessage || this.querySelector('.product-form__error-message');
     if (!this.errorMessage) return;
 
     this.errorMessage.toggleAttribute('hidden', !errorMessage);
-    this.errorMessage.innerText = errorMessage;
+
+    if (errorMessage) {
+      let translatedMessage = errorMessage;     
+      if (errorMessage === "The maximum quantity of this item is already in your cart.") {
+        translatedMessage = "Максимальну кількість цього товару вже додано до кошика.";
+      }
+      
+      else if (errorMessage.includes("is not available")) {
+        translatedMessage = "Товар наразі недоступний.";
+      }
+      else if (errorMessage.includes("All") && errorMessage.includes("sold out")) {
+        translatedMessage = "Весь товар розпродано.";
+      }
+      else if (errorMessage === "Invalid quantity") {
+        translatedMessage = "Невірна кількість.";
+      }
+
+      this.errorMessage.innerText = translatedMessage;
+    }
   }
 
   onAddHandler(event) {

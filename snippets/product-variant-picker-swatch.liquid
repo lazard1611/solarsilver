@@ -56,7 +56,7 @@
       <div class="form__label flex items-center justify-between gap-2 w-full">
         {%- if show_variant_labels -%}
           <div class="flex gap-2">
-            {{- option.name -}}:
+            {{- option.name | replace: ':', '' | strip -}}:
             <span class="font-medium" id="{{ section_id }}-{{ product_id }}-option{{ option.position }}">{{ option.selected_value }}</span>
           </div>
         {%- endif -%}

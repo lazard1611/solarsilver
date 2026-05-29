@@ -161,16 +161,5 @@
       </button>
     </div>
   {%- endunless -%}
-
-  {%- comment -%}
-    Remove the following three lines of code to remove the note
-    about being protected by Google's reCAPTCHA service.
-    By removing it, the small reCAPTCHA widget will appear in the
-    bottom right corner of the page.
-  {%- endcomment -%}
-  <div class="field rte text-sm">
-    {%- comment %}theme-check-disable TranslationKeyExists{% endcomment %}
-    {{- 'shopify.online_store.spam_detection.disclaimer_html' | t -}}
-    {%- comment %}theme-check-enable TranslationKeyExists{% endcomment %}
-  </div>
+ 
 {%- endform -%}
