@@ -1049,6 +1049,6 @@ body.popup_open {
 
 @media screen and (min-width: 768px) {
   .sort-listbox .reversed-link.text-xl {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
