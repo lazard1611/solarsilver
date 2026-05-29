@@ -46,8 +46,22 @@
         <div class="field">
           <select name="sort_by" class="select is-floating" is="custom-select" id="FacetFormSortBy-{{ context }}">
             {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+
             {%- for option in results.sort_options -%}
-              <option value="{{ option.value }}"{% if option.value == sort_by %} selected{% endif %}>{{ option.name | escape }}</option>
+              <option value="{{ option.value }}"{% if option.value == sort_by %} selected{% endif %}>
+                {%- case option.value -%}
+                  {%- when 'manual' -%}{{ 'custom.sorting.featured' | t }}
+                  {%- when 'most-relevant' -%}{{ 'custom.sorting.most_relevant' | t }}
+                  {%- when 'best-selling' -%}{{ 'custom.sorting.best_selling' | t }}
+                  {%- when 'title-ascending' -%}{{ 'custom.sorting.title_ascending' | t }}
+                  {%- when 'title-descending' -%}{{ 'custom.sorting.title_descending' | t }}
+                  {%- when 'price-ascending' -%}{{ 'custom.sorting.price_ascending' | t }}
+                  {%- when 'price-descending' -%}{{ 'custom.sorting.price_descending' | t }}
+                  {%- when 'created-ascending' -%}{{ 'custom.sorting.created_ascending' | t }}
+                  {%- when 'created-descending' -%}{{ 'custom.sorting.created_descending' | t }}
+                  {%- else -%}{{ option.name | escape }}
+                {%- endcase -%}
+              </option>
             {%- endfor -%}
           </select>
           {%- render 'icon', icon: 'chevron-up', size: 'sm', class: 'absolute pointer-events-none' -%}

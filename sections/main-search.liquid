@@ -147,7 +147,8 @@
                       <span class="btn-fill" data-fill></span>
                       <div class="btn-text">
                         <span class="sort-header flex items-center justify-center gap-5 relative w-full">
-                          <span class="sort-selection">{{ sort_by_name | escape }}</span>
+                          {% comment %} <span class="sort-selection">{{ sort_by_name | escape }}</span> {% endcomment %}
+                          <span class="sort-selection">Сортування</span>
                           <span class="sort-title text-sm uppercase absolute left-0 opacity-0 tracking-widest">{{ 'collections.sorting.sort_button' | t }}</span>
                           <span class="sort-close flex items-center justify-center rounded-full">
                             {%- render 'icon', icon: 'close', size: 'sm' -%}
@@ -157,7 +158,20 @@
                           {%- for option in search.sort_options -%}
                             <li class="opacity-0 relative">
                               <input id="SortBy-{{ option.value }}" class="sr-only" name="sort_by" type="radio" value="{{ option.value }}"{% if option.value == sort_by %} checked{% endif %} />
-                              <label for="SortBy-{{ option.value }}" class="reversed-link text-xl">{{ option.name | escape }}</label>
+                              <label for="SortBy-{{ option.value }}" class="reversed-link text-xl">
+                              {%- case option.value -%}
+                                {%- when 'manual' -%}{{ 'custom.sorting.featured' | t }}
+                                {%- when 'most-relevant' -%}{{ 'custom.sorting.most_relevant' | t }}
+                                {%- when 'best-selling' -%}{{ 'custom.sorting.best_selling' | t }}
+                                {%- when 'title-ascending' -%}{{ 'custom.sorting.title_ascending' | t }}
+                                {%- when 'title-descending' -%}{{ 'custom.sorting.title_descending' | t }}
+                                {%- when 'price-ascending' -%}{{ 'custom.sorting.price_ascending' | t }}
+                                {%- when 'price-descending' -%}{{ 'custom.sorting.price_descending' | t }}
+                                {%- when 'created-ascending' -%}{{ 'custom.sorting.created_ascending' | t }}
+                                {%- when 'created-descending' -%}{{ 'custom.sorting.created_descending' | t }}
+                                {%- else -%}{{ option.name | escape }}
+                              {%- endcase -%}
+                            </label>
                             </li>
                           {%- endfor -%}
                         </ul>
