@@ -9682,7 +9682,8 @@ details.active .drawer__promotions .mega-menu__item,
   --card-grid-template: auto-flow dense/repeat(var(--card-grid-per-row), minmax(0, 1fr));
   --card-grid-gap: var(--sp-3);
   grid: var(--card-grid-template);
-  gap: var(--card-grid-gap);
+  /* gap: var(--card-grid-gap); */
+  gap: 0.2rem;
 }
 
 @media screen and (max-width: 639px) {

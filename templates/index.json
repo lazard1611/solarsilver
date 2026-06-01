@@ -7,69 +7,8 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
-    "image_with_text_overlay_GYDmUW": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_6fTter": {
-          "type": "heading",
-          "settings": {
-            "heading": "Отримай -10% на все замовлення при купівлі трьох прикрас",
-            "heading_size": "title-sm",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "highlighted_reveal": false
-          }
-        },
-        "button_GPjDQ3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Переглянути каталог",
-            "button_link": "shopify://collections",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_6fTter",
-        "button_GPjDQ3"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-with-text-overlay.name",
-      "settings": {
-        "transparent_header": true,
-        "image": "shopify://shop_images/40_2.jpg",
-        "image_height": "650px",
-        "content_width": "small",
-        "content_position": "md:items-end md:justify-start",
-        "text_alignment": "left",
-        "image_height_mobile": "auto",
-        "content_position_mobile": "items-end justify-start",
-        "text_alignment_mobile": "left",
-        "color_text": "#ffffff",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "#e0a580",
-        "gradient_highlight": "",
-        "color_button_text": "#171717",
-        "color_button_background": "#ffffff",
-        "color_button_gradient": "",
-        "color_overlay": "#171717",
-        "overlay_opacity": 11,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "vertical"
-      }
-    },
     "opk_hero_slider_fpQmjb": {
       "type": "opk-hero-slider",
       "blocks": {
@@ -102,7 +41,7 @@
           "settings": {
             "bg": "shopify://shop_images/hero-2_abd6cf05-e169-45a8-ab9f-21c521a19f1a.webp",
             "bg_mob": "shopify://shop_images/hero-2-mob.webp",
-            "heading": "Унікальність    у кожній деталі",
+            "heading": "Унікальність  у кожній деталі",
             "type_title": "h2",
             "text": "<p>Прикраси ручної роботи, щоб підкреслити твою жіночність</p>",
             "button_label": "До каталогу",
@@ -151,6 +90,7 @@
         "slide_c6Lye7",
         "slide_WwYYpk"
       ],
+      "disabled": true,
       "name": "Hero slider",
       "settings": {
         "slider_autoplay_speed": 5,
@@ -180,7 +120,7 @@
         "highlighted_scribble": "circle",
         "highlighted_reveal": false,
         "color_text": "",
-        "color_background": "#dedede",
+        "color_background": "#e2e2e2",
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
@@ -379,7 +319,7 @@
       "name": "t:sections.image-with-text.name",
       "settings": {
         "image": "shopify://shop_images/Rectangle_119.png",
-        "image_height": "500px",
+        "image_height": "850px",
         "image_width": "large",
         "layout": "text_first",
         "text_alignment": "left",
@@ -387,7 +327,7 @@
         "image_height_mobile": "auto",
         "text_alignment_mobile": "left",
         "color_text": "",
-        "color_background": "#dedede",
+        "color_background": "#e2e2e2",
         "gradient_background": "",
         "color_background_2": "rgba(0,0,0,0)",
         "gradient_background_2": "",
@@ -514,7 +454,7 @@
         "highlighted_scribble": "circle",
         "highlighted_reveal": false,
         "color_text": "",
-        "color_background": "#dedede",
+        "color_background": "#e2e2e2",
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
@@ -534,7 +474,7 @@
         "product_EfqdiN": {
           "type": "product",
           "settings": {
-            "product": "сережки-цвяшки-з-підвісками-luna",
+            "product": "luna-drop-stud-earrings",
             "color_text": "#ffffff",
             "vertical": 36,
             "horizontal": 24,
@@ -545,7 +485,7 @@
         "product_zTHKKE": {
           "type": "product",
           "settings": {
-            "product": "підвіска-luna-на-срічці",
+            "product": "luna-pendant-on-ribbon",
             "color_text": "#ffffff",
             "vertical": 75,
             "horizontal": 51,
@@ -638,8 +578,8 @@
         "heading_UFh4mN": {
           "type": "heading",
           "settings": {
-            "heading": "Будь особливою першою",
-            "heading_size": "title-md",
+            "heading": "Отримуй лист від Solar Silver",
+            "heading_size": "title-sm",
             "heading_tag": "h2",
             "highlighted_text": "none",
             "highlighted_scribble": "circle",
@@ -649,9 +589,9 @@
         "text_qGWcq4": {
           "type": "text",
           "settings": {
-            "text": "<p>Залиши свою пошту щоб бути на одній хвилі краси</p>",
+            "text": "<p>Підпишись на нашу розсилку, щоб бути в курсі всіх новин бренду</p>",
             "text_font": "body",
-            "text_size": "subtext-md",
+            "text_size": "subtext-sm",
             "text_max_size": 32,
             "text_line_height": 1.6,
             "text_letter_spacing": 0,
@@ -693,7 +633,6 @@
     }
   },
   "order": [
-    "image_with_text_overlay_GYDmUW",
     "opk_hero_slider_fpQmjb",
     "featured_collection_qfqhkR",
     "collection_list_w9BezB",

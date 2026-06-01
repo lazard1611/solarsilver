@@ -63,7 +63,6 @@
             "show_menu_image": false,
             "button_label": "Переглянути товар",
             "button_link": "shopify://collections",
-            "promo_image_1": "shopify://shop_images/C41956E3-0291-4EFD-8244-62857C21EC82.jpg",
             "promo_image_ratio_1": "adapt",
             "promo_heading_1": "",
             "promo_subtext_1": "",
@@ -73,7 +72,6 @@
             "promo_color_text_1": "#ffffff",
             "promo_color_overlay_1": "#000000",
             "promo_overlay_opacity_1": 40,
-            "promo_image_2": "shopify://shop_images/BF6C6999-7F5F-45B1-A7EE-A93505580C96.jpg",
             "promo_image_ratio_2": "adapt",
             "promo_heading_2": "",
             "promo_subtext_2": "",
@@ -228,10 +226,88 @@
         "full_width": true,
         "rounded": false
       }
+    },
+    "slideshow_hero_kDpeA7": {
+      "type": "slideshow-hero",
+      "blocks": {
+        "image_XFe3MM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_6fb05490-176e-40b7-a2d3-b8cfa46a7e63.webp",
+            "heading": "Твоя прикраса. Твій настрій. Твоє сяйво.",
+            "heading_size": "title-sm",
+            "heading_tag": "h1",
+            "button_label": "До каталогу",
+            "button_link": "shopify://collections/all",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false
+          }
+        },
+        "image_BVki7d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero-2_abd6cf05-e169-45a8-ab9f-21c521a19f1a.webp",
+            "image_mobile": "shopify://shop_images/hero-2-mob.webp",
+            "heading": "Унікальність  у кожній деталі",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "button_label": "До каталогу",
+            "button_link": "shopify://collections/all",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false
+          }
+        },
+        "image_8i8BEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero-3-2.webp",
+            "heading": "Прикраси ручної роботи, щоб підкреслити твою жіночність",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "button_label": "До каталогу",
+            "button_link": "shopify://collections/all",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "image_XFe3MM",
+        "image_BVki7d",
+        "image_8i8BEE"
+      ],
+      "name": "Slideshow hero",
+      "settings": {
+        "logo_width": 1600,
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "image_height": "650px",
+        "content_width": "medium",
+        "image_height_mobile": "auto",
+        "accessibility_info": "Slideshow about our brand",
+        "color_text": "#ffffff",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "only_homepage": true,
+        "divider": false,
+        "rounded": false
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "slideshow_hero_kDpeA7"
   ]
 }
