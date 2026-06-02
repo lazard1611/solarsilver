@@ -137,31 +137,6 @@
     "collection_list_w9BezB": {
       "type": "collection-list",
       "blocks": {
-        "collection_84DFHH": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-collection",
-            "image": "shopify://shop_images/collection-new.webp",
-            "title": "Новинки",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_QG43jf": {
-          "type": "collection",
-          "settings": {
-            "collection": "comet",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection_KEJWF8": {
           "type": "collection",
           "settings": {
@@ -236,8 +211,6 @@
         }
       },
       "block_order": [
-        "collection_84DFHH",
-        "collection_QG43jf",
         "collection_KEJWF8",
         "collection_h8YLf8",
         "collection_3QR4xe",
@@ -253,7 +226,7 @@
         "image_ratio": "square",
         "show_products_count": false,
         "show_view_all": false,
-        "columns": 4,
+        "columns": 3,
         "carousel_on_desktop": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,

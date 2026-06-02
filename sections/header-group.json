@@ -58,7 +58,7 @@
         "mega_menu_w7Dy6K": {
           "type": "mega_menu",
           "settings": {
-            "menu_title": "Каталог",
+            "menu_title": "",
             "menu_width": "medium",
             "show_menu_image": false,
             "button_label": "Переглянути товар",

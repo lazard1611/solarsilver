@@ -1468,9 +1468,16 @@
     "name": "Shop information",
     "settings": [      
       {
-        "type": "richtext",
+        "type": "inline_richtext",
         "id": "shipping_details",
-        "label": "Free shipping text"
+        "label": "Free shipping text",
+        "default": "Безкоштовна доставка від 5000 грн."
+      },
+      {
+        "type": "inline_richtext",
+        "id": "shipping_info",
+        "label": "Shipping information",
+        "default": "Ми відправляємо замовлення по Україні впродовж 1-3 днів за допомогою служби доставки «Нова пошта». Вартість доставки - згідно з тарифами поштової служби. Попереджаємо, що замовлення буде зберігатись на пошті 7 днів, після чого воно автоматично повернеться до нас."
       },
       {
         "type": "text",

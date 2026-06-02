@@ -717,6 +717,13 @@
                       {%- endfor -%}
                     </ul>
                   {%- endif -%}
+
+                  {%- if settings.shipping_info != blank -%}
+                    <div class="goal_shiping_info">
+                      {{ settings.shipping_info }}
+                    </div>
+                  {%- endif -%}
+
                   <div class="goal_cart_drawer__bottom_wrap grid grid-cols-2 gap-4">
                     {% comment %} <div class="tax-note text-sm sm:text-base rte">
                       {%- liquid

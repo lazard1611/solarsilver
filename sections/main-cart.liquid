@@ -583,6 +583,11 @@
         <div class="grow-0">
           <sticky-element class="flex flex-col gap-7d5 lg:sticky top-0">
             <div class="cart__sidebar flex flex-col gap-7d5 md:gap-10">
+              {%- if settings.shipping_info != blank -%}
+                <div class="goal_shiping_info">
+                  {{ settings.shipping_info }}
+                </div>
+              {%- endif -%}
               {%- for block in section.blocks -%}
                 {%- case block.type -%}
                   {%- when '@app' -%}
@@ -794,6 +799,8 @@
                     </div>
                 {%- endcase -%}
               {%- endfor -%}
+
+
             </div>
             {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
               <div class="flex flex-col gap-3">
