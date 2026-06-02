@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "type": "header",
   "name": "t:sections.header-group.name",
   "sections": {
@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "icon": "none",
-            "text": "Термін опрацювання замовлень 2-3 робочих дні",
+            "text": "Опрацювання замовлень 2-3 робочих дні",
             "link": "",
             "hide_icon_mobile": false,
             "text_mobile": "",
