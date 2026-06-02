@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "current": {
     "logo": "shopify://shop_images/solar3__1_-removebg-preview.png",
     "white_logo": "",
@@ -147,7 +147,6 @@
     "tab_attention_message_1": "Something we said?",
     "tab_attention_message_2": "We're still here!",
     "tab_attention_message_delay": 3,
-    "shipping_details": "<p>Безкоштовна доставка від 5000 грн.</p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
