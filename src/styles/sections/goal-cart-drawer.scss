@@ -11,6 +11,24 @@
     .tax-note {
         font-size: 14px;
     }
+
+    .drawer__header ,
+    .drawer__tabs {
+        align-items: baseline;
+    }
+
+    .drawer__tabs li:nth-child(2) {
+        vertical-align: sub;
+        .drawer__title  {
+            @include break_points($tablet, min) {
+                font-size: 20px;                            
+            }        
+            
+            @include break_points($tablet) {
+                font-size: 16px;                                            
+            }
+        }
+    }    
 }
 
 .goal_cart_drawer__bottom_wrap {

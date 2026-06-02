@@ -29,7 +29,8 @@
 -%}
 <div class="free-shipping-bar grid gap-3 w-full">
   {%- if total_price >= minimum_amount_in_cents -%}
-    <span class="text-sm leading-tight">{{ 'general.cart.free_shipping.congratulations_html' | t }}</span>
+    {% comment %} <span class="text-sm leading-tight">{{ 'general.cart.free_shipping.congratulations_html' | t }}</span> {% endcomment %}
+    <span class="text-sm leading-tight">{{ settings.shipping_details }}</span>
     <progress-bar class="overflow-hidden rounded-full" style="--progress: 100%;"></progress-bar>
   {%- else -%}
     {%- capture remaining_amount -%}<span class="font-bold">{{ total_price | minus: minimum_amount_in_cents | abs | money }}</span>{%- endcapture -%}

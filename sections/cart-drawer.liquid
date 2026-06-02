@@ -718,7 +718,7 @@
                     </ul>
                   {%- endif -%}
                   <div class="goal_cart_drawer__bottom_wrap grid grid-cols-2 gap-4">
-                    <div class="tax-note text-sm sm:text-base rte">
+                    {% comment %} <div class="tax-note text-sm sm:text-base rte">
                       {%- liquid
                         if cart.taxes_included and shop.shipping_policy.body != blank
                           echo 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url
@@ -730,7 +730,7 @@
                           echo 'cart.general.taxes_and_shipping_at_checkout' | t
                         endif
                       -%}
-                    </div>
+                    </div> {% endcomment %}
                     <div class="totals grid place-self-end gap-1">
                       {% comment %} <span class="totals__subtotal text-sm sm:text-base">{{ 'cart.general.subtotal' | t }}</span> {% endcomment %}
                       <div class="totals__subtotal-value text-lg-2xl font-bold leading-none tracking-tight">{{ cart.total_price | money_with_currency }}</div>

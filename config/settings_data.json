@@ -23,8 +23,8 @@
     "color_shadow": "#a9c3d9",
     "color_image_background": "#dedede",
     "color_price": "#1a2342",
-    "color_sale_price": "#a94158",
-    "color_sale_tag": "#a94158",
+    "color_sale_price": "#1a2342",
+    "color_sale_tag": "#c9a96e",
     "color_sale_tag_text": "#ffffff",
     "color_rating": "#f59e0b",
     "color_button_text": "#f7f5f2",
@@ -147,6 +147,7 @@
     "tab_attention_message_1": "Something we said?",
     "tab_attention_message_2": "We're still here!",
     "tab_attention_message_delay": 3,
+    "shipping_details": "<p>Безкоштовна доставка від 5000 грн.</p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -546,4 +547,3 @@
       }
     }
   }
-}

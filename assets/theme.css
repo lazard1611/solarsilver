@@ -10884,8 +10884,8 @@ details.active .drawer__promotions .mega-menu__item,
   position: absolute;
   inset-block-start: 50%;
   width: 100%;
-  transform: rotate(-15deg);
-  border-block-end: 1px solid red;
+  border-block-end: 1px solid rgb(var(--color-price)/ 0.6);
+  /* transform: rotate(-15deg); */  
 }
 
 /*! pagination */

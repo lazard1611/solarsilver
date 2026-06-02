@@ -1469,8 +1469,8 @@
     "settings": [      
       {
         "type": "richtext",
-        "id": "shop_details",
-        "label": "Details"
+        "id": "shipping_details",
+        "label": "Free shipping text"
       },
       {
         "type": "text",

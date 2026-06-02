@@ -26,6 +26,23 @@
 .goal_cart_drawer .tax-note {
   font-size: 14px;
 }
+.goal_cart_drawer .drawer__header,
+.goal_cart_drawer .drawer__tabs {
+  align-items: baseline;
+}
+.goal_cart_drawer .drawer__tabs li:nth-child(2) {
+  vertical-align: sub;
+}
+@media screen and (min-width: 768px) {
+  .goal_cart_drawer .drawer__tabs li:nth-child(2) .drawer__title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .goal_cart_drawer .drawer__tabs li:nth-child(2) .drawer__title {
+    font-size: 16px;
+  }
+}
 
 .goal_cart_drawer__bottom_wrap {
   grid-template-columns: 1fr auto;
