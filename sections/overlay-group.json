@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "name": "t:sections.overlay-group.name",
   "type": "custom.overlay",
   "sections": {
@@ -22,7 +22,7 @@
         "show_checkout_button": true,
         "show_free_shipping_bar": true,
         "free_shipping_minimum_amount": "5000",
-        "cart_recommendations_enabled": true,
+        "cart_recommendations_enabled": false,
         "cart_recommendations_heading": "Вам також може сподобатися",
         "cart_recommendations_limit": 3,
         "show_cart_recommendations_vendor": false,
