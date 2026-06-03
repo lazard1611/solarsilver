@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "opk_hero_slider_fpQmjb": {
       "type": "opk-hero-slider",
@@ -218,7 +218,6 @@
         "collection_WJeYBx",
         "collection_aUYyfh"
       ],
-      "disabled": true,
       "custom_css": [],
       "name": "t:sections.collection-list.name",
       "settings": {
@@ -283,6 +282,7 @@
         "content_width": "small",
         "content_position": "md:items-center md:justify-center",
         "text_alignment": "center",
+        "video_url_mobile": "",
         "image_height_mobile": "auto",
         "content_position_mobile": "items-center justify-center",
         "text_alignment_mobile": "center",
