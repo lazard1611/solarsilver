@@ -47,3 +47,10 @@
 .goal_cart_drawer__bottom_wrap {
   grid-template-columns: 1fr auto;
 }
+
+.goal_cart_drawer__info {
+  padding: 14px var(--sp-12);
+  font-size: 14px;
+  background-color: tomato;
+  border-bottom: 1px solid rgb(var(--color-border-light));
+}

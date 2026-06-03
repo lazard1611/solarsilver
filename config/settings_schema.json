@@ -1481,6 +1481,12 @@
       },
       {
         "type": "text",
+        "id": "promo_text",
+        "label": "Promo text for cart",
+        "default": "Отримай -10% на другу прикрасу!"
+      },
+      {
+        "type": "text",
         "id": "shop_email",
         "label": "Shop email",
         "default": "solarsilver.official@gmail.com"
