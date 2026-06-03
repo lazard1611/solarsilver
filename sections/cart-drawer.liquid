@@ -45,9 +45,11 @@
           </span>
         </button>        
       </gesture-element>
-      <div style="background-color: {{ section.settings.bg_promo_color }};" class="goal_cart_drawer__info">
-          {{ settings.promo_text }}
-      </div>
+      {% if settings.promo_text != blank%}
+        <div style="background-color: {{ section.settings.bg_promo_color }};" class="goal_cart_drawer__info">
+            {{ settings.promo_text }}
+        </div>
+      {% endif %}
 
       <div class="drawer__content opacity-0 invisible flex flex-col h-full grow shrink">
         <div id="MiniCart-{{ section.id }}" class="drawer__panel opacity-0 flex flex-col overflow-hidden" open>
