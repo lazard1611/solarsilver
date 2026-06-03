@@ -458,7 +458,6 @@
         "column_bRQTRw",
         "column_xjLEdV"
       ],
-      "disabled": true,
       "name": "t:sections.multicolumn-with-icons.name",
       "settings": {
         "style": "with-border",
@@ -636,7 +635,6 @@
         "text_qGWcq4",
         "form_defx94"
       ],
-      "disabled": true,
       "name": "t:sections.newsletter.name",
       "settings": {
         "content_width": "medium",
