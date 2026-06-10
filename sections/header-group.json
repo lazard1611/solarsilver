@@ -263,7 +263,8 @@
         "image_8i8BEE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-3-2.webp",
+            "image": "shopify://shop_images/hero3.webp",
+            "image_mobile": "shopify://shop_images/hero-3-2.webp",
             "heading": "Прикраси ручної роботи, щоб підкреслити твою жіночність",
             "heading_size": "title-sm",
             "heading_tag": "h2",
