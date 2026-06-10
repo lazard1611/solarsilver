@@ -248,8 +248,8 @@
         "image_BVki7d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-2_abd6cf05-e169-45a8-ab9f-21c521a19f1a.webp",
-            "image_mobile": "shopify://shop_images/hero-2-mob.webp",
+            "image": "shopify://shop_images/hero2.webp",
+            "image_mobile": "shopify://shop_images/IMG_8483.webp",
             "heading": "Унікальність  у кожній деталі",
             "heading_size": "title-sm",
             "heading_tag": "h2",
