@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "type": "header",
   "name": "t:sections.header-group.name",
   "sections": {
@@ -233,7 +233,8 @@
         "image_XFe3MM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_6fb05490-176e-40b7-a2d3-b8cfa46a7e63.webp",
+            "image": "shopify://shop_images/1_56e98a9a-5058-423a-9450-6f3e6b6f553d.webp",
+            "image_mobile": "shopify://shop_images/12.webp",
             "heading": "Твоя прикраса. Твій настрій. Твоє сяйво.",
             "heading_size": "title-sm",
             "heading_tag": "h1",
@@ -285,9 +286,9 @@
         "autoplay": false,
         "autoplay_speed": 5,
         "show_navigation": true,
-        "image_height": "650px",
-        "content_width": "medium",
-        "image_height_mobile": "auto",
+        "image_height": "adapt",
+        "content_width": "small",
+        "image_height_mobile": "600px",
         "accessibility_info": "Slideshow about our brand",
         "color_text": "#ffffff",
         "color_background": "",
@@ -296,7 +297,7 @@
         "color_button_background": "#ffffff",
         "color_button_gradient": "",
         "color_overlay": "#171717",
-        "overlay_opacity": 20,
+        "overlay_opacity": 4,
         "padding_top": 0,
         "padding_bottom": 0,
         "only_homepage": true,
