@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "name": "t:sections.overlay-group.name",
   "type": "custom.overlay",
   "sections": {
@@ -275,28 +275,28 @@
           "type": "home",
           "settings": {
             "custom_icon": "",
-            "title": "Home"
+            "title": "Головна"
           }
         },
         "mobile-dock-2": {
           "type": "menu",
           "settings": {
             "custom_icon": "",
-            "title": "Menu"
+            "title": "Меню"
           }
         },
         "mobile-dock-3": {
           "type": "search",
           "settings": {
             "custom_icon": "",
-            "title": "Search"
+            "title": "Пошук"
           }
         },
         "mobile-dock-4": {
           "type": "link",
           "settings": {
             "custom_icon": "",
-            "title": "Shop",
+            "title": "Каталог",
             "link": "shopify://collections/all",
             "external": false
           }
@@ -305,14 +305,14 @@
           "type": "cart",
           "settings": {
             "custom_icon": "",
-            "title": "Cart"
+            "title": "Кошик"
           }
         },
         "mobile-dock-6": {
           "type": "account",
           "settings": {
             "custom_icon": "",
-            "title": "Account"
+            "title": "Акаунт"
           }
         }
       },
