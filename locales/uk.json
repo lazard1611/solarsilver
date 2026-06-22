@@ -646,5 +646,12 @@
       "created_ascending": "Дата: від старої до нової",
       "created_descending": "Дата: від нової до старої"
     }
-  } 
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "product_column_header": "Товари"
+      }
+    }
+  }
 }
