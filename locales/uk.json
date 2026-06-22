@@ -652,6 +652,18 @@
       "stock": {
         "product_column_header": "Товари"
       }
+    },
+    "page_titles": {
+      "products": "Товари"
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "products_accessibility_label": "Товари"
+        }
+      }
     }
   }
 }
