@@ -66,7 +66,22 @@
     {%- endif -%}
 
     {%- render 'js-variables' -%}
-  </head>
+  
+    {% if customer %}
+        {% # CHEKLY-CUSTOMER-SCRIPT-START # %}
+        <script>
+            window.Shopify = window.Shopify || {};
+            Shopify.customer = {
+                firstName: "{{ customer.first_name }}",
+                lastName: "{{ customer.last_name }}",
+                email: "{{ customer.email }}",
+                phone: "{{ customer.phone }}"
+            };
+        </script>
+        {% # CHEKLY-CUSTOMER-SCRIPT-END # %}
+    {% endif %}
+    <script data-chekly-url="https://chekly-app.com" data-chekly-theme="chekly" data-chekly-script="LOCAL" src="{{ 'chekly-script.js' | asset_url }}" async></script>
+</head>
 
   <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-rounded-button="{{ settings.rounded_button }}" data-rounded-input="{{ settings.rounded_input }}" data-rounded-block="{{ settings.rounded_block }}" data-rounded-card="{{ settings.rounded_card }}" data-button-hover="{{ settings.buttons_hover }}"{% if settings.enable_page_transition %} data-page-transition{% endif %}{% if settings.enable_lazy_image %} data-lazy-image{% endif %}{% unless settings.show_modal_close_button %} data-modal-swipe-only{% endunless %} data-title-animation data-page-rendering>
     <a class="sr-only skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
