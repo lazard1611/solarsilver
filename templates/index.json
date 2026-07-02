@@ -421,10 +421,10 @@
         "column_dbDb8x": {
           "type": "column",
           "settings": {
-            "icon": "chat_bubble",
+            "icon": "award",
             "custom_icon": "",
-            "heading": "Підтримка 24/7",
-            "text": "<p>Наші менеджери завжди на зв’язку — консультуємо вас у будь-який час, навіть у вихідні.</p>",
+            "heading": "Досвідченість",
+            "text": "<p>Бренд Solar Silver заснований у Львові у 2018 році.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
